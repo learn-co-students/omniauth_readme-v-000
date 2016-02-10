@@ -4,10 +4,10 @@ RSpec.describe SessionsController, type: :controller do
   describe 'get create' do
     it 'assigns omniauth data to @auth' do
       auth = {      
-        here: 'is',
-        some: 'auth',
-        data: '.',
-        provider: 'facebook',
+        'info' => {
+          email: 'Roberto@test.com',
+          name: 'Roberto',
+        }
       }
       @request.env['omniauth.auth'] = auth
       get :create
