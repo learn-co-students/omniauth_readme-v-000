@@ -1,8 +1,8 @@
 class SessionsController < ApplicationController
- 
+
   def create
     @auth = auth
-    user = User.find_or_create_by_uid(auth['uid']) do |u|
+    user = User.find_or_create_by(uid: auth['uid']) do |u|
       u.info = auth['info']['name']
       u.email = auth['info']['email']
     end
@@ -12,5 +12,5 @@ class SessionsController < ApplicationController
   def auth
     request.env['omniauth.auth']
   end
- 
+
 end
