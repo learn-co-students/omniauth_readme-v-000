@@ -1048,3 +1048,227 @@ Started GET "/auth/facebook" for ::1 at 2016-02-20 13:54:29 -0800
 Started GET "/auth/facebook" for ::1 at 2016-02-20 13:54:30 -0800
   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2016-02-20 15:20:53 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 436ms (Views: 418.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/static.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-20 15:20:54 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-20 15:20:57 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-20 15:20:57 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-20 15:38:07 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-20 15:38:07 -0800
+
+
+Started GET "/" for ::1 at 2016-02-22 11:23:18 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 649ms (Views: 625.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/static.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/static.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-22 11:23:20 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:23:21 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:23:22 -0800
+
+
+Started GET "/auth/facebook/callback?code=AQDN252XjIjGBY9yCfYmOBVTBfHZFTUHz47fTw0HPRFcYK4GO6EWUMptTfuY7ldFCRcGiSs04aUBboZfOwOjQSm6zhBw5MMNoiYjgoFn2-K5Y4Z6r5AZh3XMgaH2XcZVGKxo9etvzh-qRFgJeTngl-SRVW3n92jW1_2Tav5BAUeKgnwOG3oQlfJMfw4htv15plPnZFNBbwlZHAZgYluU7aZk9YcJpp845PlLfQ6gOMdUrr4PdP2Qs7-iXvgGfvTtCKKM7RZcF1YljGoveiOBmWm6FuS3a-s4798G_CgcocdlmO6U1ny_D_qctAbG1XOLwYc&state=7fc8327ef9a679b0771367813f0c277df22d29d969859a2b" for ::1 at 2016-02-22 11:24:31 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDN252XjIjGBY9yCfYmOBVTBfHZFTUHz47fTw0HPRFcYK4GO6EWUMptTfuY7ldFCRcGiSs04aUBboZfOwOjQSm6zhBw5MMNoiYjgoFn2-K5Y4Z6r5AZh3XMgaH2XcZVGKxo9etvzh-qRFgJeTngl-SRVW3n92jW1_2Tav5BAUeKgnwOG3oQlfJMfw4htv15plPnZFNBbwlZHAZgYluU7aZk9YcJpp845PlLfQ6gOMdUrr4PdP2Qs7-iXvgGfvTtCKKM7RZcF1YljGoveiOBmWm6FuS3a-s4798G_CgcocdlmO6U1ny_D_qctAbG1XOLwYc", "state"=>"7fc8327ef9a679b0771367813f0c277df22d29d969859a2b"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.3ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (192.4ms)
+
+
+Started GET "/" for ::1 at 2016-02-22 11:26:35 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 541ms (Views: 521.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/session.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/static.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/assets/static.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-22 11:26:37 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:26:39 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:26:39 -0800
+
+
+Started GET "/auth/facebook/callback?code=AQCYG3sjKWYhMgEpo74UfQxTApQ1sS0zMCIq8xUM7DpeDlYrI_WaHWCiOYaWWAIPYV4F10Kt0mJ0JbBkPIyU6YAqTyZxsnn7y2IH0RB6_Jvu524-Rrept_n35RnakKwHhMBqp7VYn7xt74-oS4H3eUp8tGzd7bfRdBQWYqUb_ngvcNY2GUNuqoKSvFlApaUNVpujplsmX2IjxzI6pLdNzYPC5SG5aDsy3thlWKF1in-rkT4SkPYnTBxPVSeymmQ85nuS0eH1T7rR7QSUpSvocS4hLJWTIuei0cWLSlnBlRSUluLZqElYfQCfa29N0hUXPQM&state=f2e293093fe3eadde9e87a0e1488858c56dbb2ab324340f4" for ::1 at 2016-02-22 11:26:43 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCYG3sjKWYhMgEpo74UfQxTApQ1sS0zMCIq8xUM7DpeDlYrI_WaHWCiOYaWWAIPYV4F10Kt0mJ0JbBkPIyU6YAqTyZxsnn7y2IH0RB6_Jvu524-Rrept_n35RnakKwHhMBqp7VYn7xt74-oS4H3eUp8tGzd7bfRdBQWYqUb_ngvcNY2GUNuqoKSvFlApaUNVpujplsmX2IjxzI6pLdNzYPC5SG5aDsy3thlWKF1in-rkT4SkPYnTBxPVSeymmQ85nuS0eH1T7rR7QSUpSvocS4hLJWTIuei0cWLSlnBlRSUluLZqElYfQCfa29N0hUXPQM", "state"=>"f2e293093fe3eadde9e87a0e1488858c56dbb2ab324340f4"}
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `uid' for #<SessionsController:0x007fd1734c8668>):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (26.6ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (184.0ms)
+
+
+Started GET "/auth/facebook/callback?code=AQDdp8j7S4i661N-mJFYrzlB6FQnFzKf9-oHzZfOIUWgH4RTxywuXq-z9FNHa9lEB86ilAHankCbl7i47sZHgOjTXUPtVsTs_Zd59LPAVVfLCoYaNslBOruGdLhmhIW9NrsQtV1WitoOBKj_a1n1IAkfB79HIZla-1oQ1AKb33wwvngOhs0ighIrDUI6pAdl_gFo8gsX8ogy7i2ENOQmS34xydZeITQ_C-z1iMZXPIavRk5-R4yUQdZISYpHwPXbMgPFMhxA6Rx0Dl9pdZjCcWSLW_ouVViOqvxmZYYXorg98ZFAoeYZv2hds7XC0RycGPw&state=f2e293093fe3eadde9e87a0e1488858c56dbb2ab324340f4" for ::1 at 2016-02-22 11:27:16 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDdp8j7S4i661N-mJFYrzlB6FQnFzKf9-oHzZfOIUWgH4RTxywuXq-z9FNHa9lEB86ilAHankCbl7i47sZHgOjTXUPtVsTs_Zd59LPAVVfLCoYaNslBOruGdLhmhIW9NrsQtV1WitoOBKj_a1n1IAkfB79HIZla-1oQ1AKb33wwvngOhs0ighIrDUI6pAdl_gFo8gsX8ogy7i2ENOQmS34xydZeITQ_C-z1iMZXPIavRk5-R4yUQdZISYpHwPXbMgPFMhxA6Rx0Dl9pdZjCcWSLW_ouVViOqvxmZYYXorg98ZFAoeYZv2hds7XC0RycGPw", "state"=>"f2e293093fe3eadde9e87a0e1488858c56dbb2ab324340f4"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10103736108320804]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "users" ("uid", "info", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["uid", 10103736108320804], ["info", "Shana Moore"], ["email", "shana.lavina.moore@gmail.com"], ["created_at", "2016-02-22 19:27:17.841221"], ["updated_at", "2016-02-22 19:27:17.841221"]]
+  [1m[36m (4.4ms)[0m  [1mcommit transaction[0m
+  Rendered sessions/create.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 9.4ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__1728685440056586229_70268768316700'
+
+
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (138.8ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:27:36 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:27:36 -0800
+
+
+Started GET "/auth/facebook/callback?code=AQAEocR76UfSsVN-gyiaLAGpy7qljsG8IXj7z3TrhPOJyuBy0cuqUrTSZyUD9aHsqhIVV0-g6KbC3WBn32D7YxzIVkich277yeUM2IY8h1QHoJpuF4FKtxKSl1_tsGA7-_Ro780GWspwcwDueMrXjwBd2l8wxtZQSWpxlgm8UEbzjmSmTLrZBYdEFOZjSqkMXk5vI2UjHxmknjYXrQvYbejGVOCotFgTVirUSH45gknyttmVhpm268fqu1PqCY-t3eh4mRdrbh18EYdCn8_fS014x_UJIIrs_mVhFRBZHI5TP77qf_WicarDYwDsGByOeJA&state=7497bd3cc488237a8696d96e9c7ed2ab1fe3a05696a34838" for ::1 at 2016-02-22 11:27:44 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAEocR76UfSsVN-gyiaLAGpy7qljsG8IXj7z3TrhPOJyuBy0cuqUrTSZyUD9aHsqhIVV0-g6KbC3WBn32D7YxzIVkich277yeUM2IY8h1QHoJpuF4FKtxKSl1_tsGA7-_Ro780GWspwcwDueMrXjwBd2l8wxtZQSWpxlgm8UEbzjmSmTLrZBYdEFOZjSqkMXk5vI2UjHxmknjYXrQvYbejGVOCotFgTVirUSH45gknyttmVhpm268fqu1PqCY-t3eh4mRdrbh18EYdCn8_fS014x_UJIIrs_mVhFRBZHI5TP77qf_WicarDYwDsGByOeJA", "state"=>"7497bd3cc488237a8696d96e9c7ed2ab1fe3a05696a34838"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10103736108320804]]
+  Rendered sessions/create.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__1728685440056586229_70268768316700'
+
+
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (32.5ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/Shana/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.2ms)
+
+
+Started GET "/" for ::1 at 2016-02-22 11:30:13 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 564ms (Views: 539.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:30:17 -0800
+
+
+Started GET "/auth/facebook" for ::1 at 2016-02-22 11:30:17 -0800
+
+
+Started GET "/auth/facebook/callback?code=AQBWRKDrwSBlOrSe7lXTXWeVwfLzwJarzd23phVbk5izKgf8xghTzOXn93n9Pzj8Cjpnxq_EhRqhcuAtyd8CqZKyVrKGpYGU8fFNdxgWvnjPxYl6m9XP4lUXTHXCZ3w6alNM3eP29PUNjLu_8myI2xjgM3G2mvF8ut-Ocom8mJzWbH_BU-DpaZXs1ONXZ5zuKmErHe7cyhEEClBaMRvPvgppqeXSuAxszqCu0XkJug8ojkYufMtOiw4rKR5sgqKE7nbDUy3T4MqwvTbUU76T1kzl1Dg0_EUkt5vVdBSg4hqqLkJIyHVMosrPPdjaohoBtpE&state=7d7c4134bed85e499a00f8382518dc6f760791dde5b160eb" for ::1 at 2016-02-22 11:30:24 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBWRKDrwSBlOrSe7lXTXWeVwfLzwJarzd23phVbk5izKgf8xghTzOXn93n9Pzj8Cjpnxq_EhRqhcuAtyd8CqZKyVrKGpYGU8fFNdxgWvnjPxYl6m9XP4lUXTHXCZ3w6alNM3eP29PUNjLu_8myI2xjgM3G2mvF8ut-Ocom8mJzWbH_BU-DpaZXs1ONXZ5zuKmErHe7cyhEEClBaMRvPvgppqeXSuAxszqCu0XkJug8ojkYufMtOiw4rKR5sgqKE7nbDUy3T4MqwvTbUU76T1kzl1Dg0_EUkt5vVdBSg4hqqLkJIyHVMosrPPdjaohoBtpE", "state"=>"7d7c4134bed85e499a00f8382518dc6f760791dde5b160eb"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10103736108320804]]
+  Rendered sessions/create.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 94ms (Views: 68.3ms | ActiveRecord: 1.5ms)
