@@ -48,3 +48,4 @@ end
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'web-console', group: :development
+gem 'pry'
