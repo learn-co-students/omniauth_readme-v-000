@@ -1,0 +1,863 @@
+
+
+Started GET "/login" for 104.174.110.160 at 2016-04-05 20:43:06 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (34.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (248.2ms)
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:43:10 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (13.1ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:43:31 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:43:57 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:45:26 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1129ms (Views: 1113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/facebook.self-e630e1d980d92ba98934bc3e835a4fa7decdc5f3631f9a2675908b3663907855.js?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.174.110.160 at 2016-04-05 20:45:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:45:38 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:45:38 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 230ms (Views: 227.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-e630e1d980d92ba98934bc3e835a4fa7decdc5f3631f9a2675908b3663907855.js?body=1" for 104.174.110.160 at 2016-04-05 20:49:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:49:59 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:49:59 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:53:15 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.174.110.160 at 2016-04-05 20:53:15 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 104.174.110.160 at 2016-04-05 20:53:15 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 104.174.110.160 at 2016-04-05 20:53:15 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 104.174.110.160 at 2016-04-05 20:53:16 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-e630e1d980d92ba98934bc3e835a4fa7decdc5f3631f9a2675908b3663907855.js?body=1" for 104.174.110.160 at 2016-04-05 20:53:16 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.174.110.160 at 2016-04-05 20:53:16 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:53:21 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:53:21 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:56:03 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:56:03 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 104.174.110.160 at 2016-04-05 20:56:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 439ms (Views: 414.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.174.110.160 at 2016-04-05 20:56:29 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 104.174.110.160 at 2016-04-05 20:56:30 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 104.174.110.160 at 2016-04-05 20:56:30 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.174.110.160 at 2016-04-05 20:56:30 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 104.174.110.160 at 2016-04-05 20:56:30 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-e630e1d980d92ba98934bc3e835a4fa7decdc5f3631f9a2675908b3663907855.js?body=1" for 104.174.110.160 at 2016-04-05 20:56:30 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:56:32 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:56:33 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:57:48 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:57:49 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 66.220.145.148 at 2016-04-05 20:58:42 +0000
+Cannot render console from 66.220.145.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as */*
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 121ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 66.220.145.148 at 2016-04-05 20:58:43 +0000
+Cannot render console from 66.220.145.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 66.220.145.150 at 2016-04-05 20:58:43 +0000
+Cannot render console from 66.220.145.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/facebook.self-e630e1d980d92ba98934bc3e835a4fa7decdc5f3631f9a2675908b3663907855.js?body=1" for 66.220.145.150 at 2016-04-05 20:58:43 +0000
+Cannot render console from 66.220.145.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 66.220.145.150 at 2016-04-05 20:58:43 +0000
+Cannot render console from 66.220.145.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 66.220.145.154 at 2016-04-05 20:58:43 +0000
+Cannot render console from 66.220.145.154! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:58:46 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:58:46 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied&state=3451a5fcda985c8d870d475a94ec0c99e33fb069b5fac51d" for 104.174.110.160 at 2016-04-05 20:58:56 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OmniAuth::Strategies::Facebook::NoAuthorizationCodeError (must pass either a `code` (via URL or by an `fbsr_XXX` signed request cookie)):
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:151:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (234.7ms)
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:59:17 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 20:59:18 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQDGw35j27fceCGC_W_h7ANHM2D5ZcvmPCJFOP1hIPMIA4Thj-Vc_jeuRWRfrhFQwk6rSb5ZwtcY1luwrwdyUOTMPS2PStW7gJ7NW0V9sfp9RQETiepo9HZNVdlQxnhruiV_yldslZ2darDoatKcFpQI6aaC4QkN98fhOIG2XxvmAWQ8NZNVDNzi-QybqkwUwLCwZXwXz5CL8p2nHsu7PO7hCSO-dE5eHCbIT_S3beY12wIynVD4V6KG3Mr5467VRAtP08bAM-PMNg0ZUxX1UITWxj6Y6pme1PP_qQKP5UKt-lIRARrLAyIm97kU6s2og7k0-PAROl-1Ptyr9SYzx8XRpg1og2KnUxpG7nDT_4-shA&state=0e6cce82ad74f255876e8c142a99a1af1394f03344efd120" for 104.174.110.160 at 2016-04-05 20:59:32 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/auth/facebook/callback"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (60.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (250.9ms)
+
+
+Started GET "/auth/facebook/callback?code=AQBlVtGmbVv-hmunEwDPPdUZLpTIqKre_kjl3cwPCfgd779wbEaS1xmOx1c7biHs8GBn07-R4NTcS-5zNtSsMBhy-WnPTacYgEt2qE_-WC5FVHmBtnrUajfKOdE6NxvxbS8rj9rSGSFh8CYJHtwB2KT1n2cdqSkvurfpKG-idFwB5ch7IWL1pAuVvWdJFj32_T8Y4_qokhQglHn85xnJ8L72ZXZviEkGFrsvyqqIf0o9MM6lKluyrHu-F1a_jCpVzw90d-Ka0UHF384t7YIJK2CVNFWVJmj8evnwb2SeA9MkV21CgXjW6pjmEp5B8bxRYHESG2abSO6PAznilmiA61s9NGJIJCRzAA0AXzWG0_L72w&state=0e6cce82ad74f255876e8c142a99a1af1394f03344efd120" for 104.174.110.160 at 2016-04-05 21:01:00 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBlVtGmbVv-hmunEwDPPdUZLpTIqKre_kjl3cwPCfgd779wbEaS1xmOx1c7biHs8GBn07-R4NTcS-5zNtSsMBhy-WnPTacYgEt2qE_-WC5FVHmBtnrUajfKOdE6NxvxbS8rj9rSGSFh8CYJHtwB2KT1n2cdqSkvurfpKG-idFwB5ch7IWL1pAuVvWdJFj32_T8Y4_qokhQglHn85xnJ8L72ZXZviEkGFrsvyqqIf0o9MM6lKluyrHu-F1a_jCpVzw90d-Ka0UHF384t7YIJK2CVNFWVJmj8evnwb2SeA9MkV21CgXjW6pjmEp5B8bxRYHESG2abSO6PAznilmiA61s9NGJIJCRzAA0AXzWG0_L72w", "state"=>"0e6cce82ad74f255876e8c142a99a1af1394f03344efd120"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"code"=>"AQBlVtGmbVv-hmunEwDPPdUZLpTIqKre_kjl3cwPCfgd779wbEaS1xmOx1c7biHs8GBn07-R4NTcS-5zNtSsMBhy-WnPTacYgEt2qE_-WC5FVHmBtnrUajfKOdE6NxvxbS8rj9rSGSFh8CYJHtwB2KT1n2cdqSkvurfpKG-idFwB5ch7IWL1pAuVvWdJFj32_T8Y4_qokhQglHn85xnJ8L72ZXZviEkGFrsvyqqIf0o9MM6lKluyrHu-F1a_jCpVzw90d-Ka0UHF384t7YIJK2CVNFWVJmj8evnwb2SeA9MkV21CgXjW6pjmEp5B8bxRYHESG2abSO6PAznilmiA61s9NGJIJCRzAA0AXzWG0_L72w", "state"=>"0e6cce82ad74f255876e8c142a99a1af1394f03344efd120", "controller"=>"sessions", "action"=>"create"}):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.0ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAUAozAChV0bQ7JPW26OQ7fXW2XBxQid_meoxCcs5wIOVWNdX4MjEly_JM7HJAWayP5GveJp7SMGDo18fMGiM-zlmXn0pDcFsl9Oy_YyN5xytgaIH5gsJ1rWa7bPpAR-hlttY_E4rJ5HoahAnLZGhUvYka6fVzGe_0W2ZFJfFz_0yI5AQNXAsjhL-QFu5PXwcCvOC4wLjq3PxTu_8JoNetZbTJTVrvzGtaZauD5dqmuzTAHFF9jeCBbOglP80H3_vXMB2mbMU2uWA8OAGewU3Uu0_CImjPjrG-T9aXCrtfDnap6bdnGvjH1hYUx16OvRXwTL_d8INcarqk76IEP9rs02SbkQRKHy_hNVUKsZVN0-A&state=0e6cce82ad74f255876e8c142a99a1af1394f03344efd120" for 104.174.110.160 at 2016-04-05 21:08:07 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAUAozAChV0bQ7JPW26OQ7fXW2XBxQid_meoxCcs5wIOVWNdX4MjEly_JM7HJAWayP5GveJp7SMGDo18fMGiM-zlmXn0pDcFsl9Oy_YyN5xytgaIH5gsJ1rWa7bPpAR-hlttY_E4rJ5HoahAnLZGhUvYka6fVzGe_0W2ZFJfFz_0yI5AQNXAsjhL-QFu5PXwcCvOC4wLjq3PxTu_8JoNetZbTJTVrvzGtaZauD5dqmuzTAHFF9jeCBbOglP80H3_vXMB2mbMU2uWA8OAGewU3Uu0_CImjPjrG-T9aXCrtfDnap6bdnGvjH1hYUx16OvRXwTL_d8INcarqk76IEP9rs02SbkQRKHy_hNVUKsZVN0-A", "state"=>"0e6cce82ad74f255876e8c142a99a1af1394f03344efd120"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+RuntimeError ({"code"=>"AQAUAozAChV0bQ7JPW26OQ7fXW2XBxQid_meoxCcs5wIOVWNdX4MjEly_JM7HJAWayP5GveJp7SMGDo18fMGiM-zlmXn0pDcFsl9Oy_YyN5xytgaIH5gsJ1rWa7bPpAR-hlttY_E4rJ5HoahAnLZGhUvYka6fVzGe_0W2ZFJfFz_0yI5AQNXAsjhL-QFu5PXwcCvOC4wLjq3PxTu_8JoNetZbTJTVrvzGtaZauD5dqmuzTAHFF9jeCBbOglP80H3_vXMB2mbMU2uWA8OAGewU3Uu0_CImjPjrG-T9aXCrtfDnap6bdnGvjH1hYUx16OvRXwTL_d8INcarqk76IEP9rs02SbkQRKHy_hNVUKsZVN0-A", "state"=>"0e6cce82ad74f255876e8c142a99a1af1394f03344efd120", "controller"=>"sessions", "action"=>"create"}):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.7ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAUAozAChV0bQ7JPW26OQ7fXW2XBxQid_meoxCcs5wIOVWNdX4MjEly_JM7HJAWayP5GveJp7SMGDo18fMGiM-zlmXn0pDcFsl9Oy_YyN5xytgaIH5gsJ1rWa7bPpAR-hlttY_E4rJ5HoahAnLZGhUvYka6fVzGe_0W2ZFJfFz_0yI5AQNXAsjhL-QFu5PXwcCvOC4wLjq3PxTu_8JoNetZbTJTVrvzGtaZauD5dqmuzTAHFF9jeCBbOglP80H3_vXMB2mbMU2uWA8OAGewU3Uu0_CImjPjrG-T9aXCrtfDnap6bdnGvjH1hYUx16OvRXwTL_d8INcarqk76IEP9rs02SbkQRKHy_hNVUKsZVN0-A&state=0e6cce82ad74f255876e8c142a99a1af1394f03344efd120" for 104.174.110.160 at 2016-04-05 21:08:40 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"A\/7TFp4b5BM"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (143.8ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAUAozAChV0bQ7JPW26OQ7fXW2XBxQid_meoxCcs5wIOVWNdX4MjEly_JM7HJAWayP5GveJp7SMGDo18fMGiM-zlmXn0pDcFsl9Oy_YyN5xytgaIH5gsJ1rWa7bPpAR-hlttY_E4rJ5HoahAnLZGhUvYka6fVzGe_0W2ZFJfFz_0yI5AQNXAsjhL-QFu5PXwcCvOC4wLjq3PxTu_8JoNetZbTJTVrvzGtaZauD5dqmuzTAHFF9jeCBbOglP80H3_vXMB2mbMU2uWA8OAGewU3Uu0_CImjPjrG-T9aXCrtfDnap6bdnGvjH1hYUx16OvRXwTL_d8INcarqk76IEP9rs02SbkQRKHy_hNVUKsZVN0-A&state=0e6cce82ad74f255876e8c142a99a1af1394f03344efd120" for 104.174.110.160 at 2016-04-05 21:09:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"E\/wYxtShZaz"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.9ms)
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:09:36 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:09:36 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQAlq6vPvLBundS_trLxvHkwh5z5bS18DYC3Dh66C9lxjULqpfvrYzsqNCUQeq95dWRKJYCokjWf-suuWh7Pkn-iCazwQoG020xHIK7KYUqyDXmkfxDez3cYREWRvCrkpwEBT-v7rd8KZE7-HETlpm7JSmf3FQfa7PiqjPGSrVh1WJ69usF3lSMWyyVfE51b9jyBLAqxfbdEcyRKBGxa3Y9yrRCXG3py9m64rvz3AOP5lHnMpnkDKCT9tN575H5VvjF3IYmySd2Hk7yIvHPlGQiSsPo-PiUWACBmCvKMWY2QcnHBbL21m2FcCZ_qvBbNIFQYfuScS4y9XR4luQpRxAob1tCnYnrb7T4QairiDM-1wQ&state=dec437347a6651323856469dc9f4b549aaf87cdf3302caf9" for 104.174.110.160 at 2016-04-05 21:09:37 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAlq6vPvLBundS_trLxvHkwh5z5bS18DYC3Dh66C9lxjULqpfvrYzsqNCUQeq95dWRKJYCokjWf-suuWh7Pkn-iCazwQoG020xHIK7KYUqyDXmkfxDez3cYREWRvCrkpwEBT-v7rd8KZE7-HETlpm7JSmf3FQfa7PiqjPGSrVh1WJ69usF3lSMWyyVfE51b9jyBLAqxfbdEcyRKBGxa3Y9yrRCXG3py9m64rvz3AOP5lHnMpnkDKCT9tN575H5VvjF3IYmySd2Hk7yIvHPlGQiSsPo-PiUWACBmCvKMWY2QcnHBbL21m2FcCZ_qvBbNIFQYfuScS4y9XR4luQpRxAob1tCnYnrb7T4QairiDM-1wQ", "state"=>"dec437347a6651323856469dc9f4b549aaf87cdf3302caf9"}
+  Rendered sessions/create.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__447784931555384920_69839640766820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.8ms)
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:10:00 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:10:00 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQBfJHKMjJR1BxAVX5OQpjoQoXHfmkL87Yn3-qsF7sIB5EUpbFkPOTKnPSC3MpfKc2b_qKJOcQA2GtmnKFt8Xu8wIpx8rbEmDs6KorBdHWb_DaR5ZmDR4QbZ_1oKrU82m6GhVqn44qqA5qIIPOLvmCNU64Rlt3dltwy_bBCMVmY7tc_VQgsWMdcPF_-oLaIi1j4xQuOY3_DZsKd6Zi9bmJ9FF6x5ci8f1zMFZ9QD_3eY2ACODEumtl6Y2LUtinCcxL5bXis4EeCT2POOSah4vhxEk0iYSddaAn09DLM0vGy_1zKKhBAZ3btcWGxe9hnfUBpIL0dn5r3UqS_eDaRSHFrtqNZK0MIiFcE9ZZjgQSmj2Q&state=9d27898a35be294e144d003e9416e96f4922479cfbb486cf" for 104.174.110.160 at 2016-04-05 21:10:00 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBfJHKMjJR1BxAVX5OQpjoQoXHfmkL87Yn3-qsF7sIB5EUpbFkPOTKnPSC3MpfKc2b_qKJOcQA2GtmnKFt8Xu8wIpx8rbEmDs6KorBdHWb_DaR5ZmDR4QbZ_1oKrU82m6GhVqn44qqA5qIIPOLvmCNU64Rlt3dltwy_bBCMVmY7tc_VQgsWMdcPF_-oLaIi1j4xQuOY3_DZsKd6Zi9bmJ9FF6x5ci8f1zMFZ9QD_3eY2ACODEumtl6Y2LUtinCcxL5bXis4EeCT2POOSah4vhxEk0iYSddaAn09DLM0vGy_1zKKhBAZ3btcWGxe9hnfUBpIL0dn5r3UqS_eDaRSHFrtqNZK0MIiFcE9ZZjgQSmj2Q", "state"=>"9d27898a35be294e144d003e9416e96f4922479cfbb486cf"}
+  Rendered sessions/create.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__447784931555384920_69839640766820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (159.8ms)
+
+
+Started GET "/auth/facebook/callback?code=AQBfJHKMjJR1BxAVX5OQpjoQoXHfmkL87Yn3-qsF7sIB5EUpbFkPOTKnPSC3MpfKc2b_qKJOcQA2GtmnKFt8Xu8wIpx8rbEmDs6KorBdHWb_DaR5ZmDR4QbZ_1oKrU82m6GhVqn44qqA5qIIPOLvmCNU64Rlt3dltwy_bBCMVmY7tc_VQgsWMdcPF_-oLaIi1j4xQuOY3_DZsKd6Zi9bmJ9FF6x5ci8f1zMFZ9QD_3eY2ACODEumtl6Y2LUtinCcxL5bXis4EeCT2POOSah4vhxEk0iYSddaAn09DLM0vGy_1zKKhBAZ3btcWGxe9hnfUBpIL0dn5r3UqS_eDaRSHFrtqNZK0MIiFcE9ZZjgQSmj2Q&state=9d27898a35be294e144d003e9416e96f4922479cfbb486cf" for 104.174.110.160 at 2016-04-05 21:10:20 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"ESdpU0Lu73K"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.6ms)
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:10:43 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:10:43 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQCxNp5TU5o1QhHIScHkbiN-34j0euSA7DIadkcMAwzfp8OPsWzPs3PHsavO6xk4SnAjLRxU2SuK1YX7lV4Kp2Zf46LYozhPtcMwBTPJLXPa2WAWH4bOAqcaviMWjdQ7rE2yViNqd1cXsUB2mwW_R0jw2OQs7wEozhjXJ4BSwH9M1g0BJ7nYQdbBLfH8gA2_Syfp14OjeIxtyHgOgBK1zRG1Cx3xpBD4PTkg61jhort1PTapBZ71KFLFo9X7-UozC_ZaloUtnO6d_iug7EZNllL-6XZFHZas_hi190IuBaRZ8VLwVcfzRfiq3S_Hv4QI_Dpjx9SBh6R69hrUByMjc36dbj1vmm1gN8RkQVAUY7nLGQ&state=8ce19dbf68c9ce98ebc4480fce77ea1e40569c22730cb094" for 104.174.110.160 at 2016-04-05 21:10:50 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCxNp5TU5o1QhHIScHkbiN-34j0euSA7DIadkcMAwzfp8OPsWzPs3PHsavO6xk4SnAjLRxU2SuK1YX7lV4Kp2Zf46LYozhPtcMwBTPJLXPa2WAWH4bOAqcaviMWjdQ7rE2yViNqd1cXsUB2mwW_R0jw2OQs7wEozhjXJ4BSwH9M1g0BJ7nYQdbBLfH8gA2_Syfp14OjeIxtyHgOgBK1zRG1Cx3xpBD4PTkg61jhort1PTapBZ71KFLFo9X7-UozC_ZaloUtnO6d_iug7EZNllL-6XZFHZas_hi190IuBaRZ8VLwVcfzRfiq3S_Hv4QI_Dpjx9SBh6R69hrUByMjc36dbj1vmm1gN8RkQVAUY7nLGQ", "state"=>"8ce19dbf68c9ce98ebc4480fce77ea1e40569c22730cb094"}
+  Rendered sessions/create.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__447784931555384920_69839640766820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (147.1ms)
+
+
+Started GET "/auth/facebook/callback?code=AQCxNp5TU5o1QhHIScHkbiN-34j0euSA7DIadkcMAwzfp8OPsWzPs3PHsavO6xk4SnAjLRxU2SuK1YX7lV4Kp2Zf46LYozhPtcMwBTPJLXPa2WAWH4bOAqcaviMWjdQ7rE2yViNqd1cXsUB2mwW_R0jw2OQs7wEozhjXJ4BSwH9M1g0BJ7nYQdbBLfH8gA2_Syfp14OjeIxtyHgOgBK1zRG1Cx3xpBD4PTkg61jhort1PTapBZ71KFLFo9X7-UozC_ZaloUtnO6d_iug7EZNllL-6XZFHZas_hi190IuBaRZ8VLwVcfzRfiq3S_Hv4QI_Dpjx9SBh6R69hrUByMjc36dbj1vmm1gN8RkQVAUY7nLGQ&state=8ce19dbf68c9ce98ebc4480fce77ea1e40569c22730cb094" for 104.174.110.160 at 2016-04-05 21:11:08 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"BwLWQBT5lqK"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.1ms)
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:11:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 104.174.110.160 at 2016-04-05 21:11:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQBEiZ16vdMuY-t2O_Jxc5STzeGjWn3PRi3g40QdoUTOgexbDDzppJnRkF-b3F6mwD9yUpdqe7Dlu6qfr3hJoI48t0J77smPZJXQ4YFlo9xHi-O_QoQyylKfIRDBj4NLuRUEmiYKWsaGusKPI7ULxpvA7yMAC8xHcBPgT1Gk0hP_19AjqJ-cjMZ_Xs-oY4JXvYLBkXcVFobA8NzrXgJnnAUjfxsVOcoalXw-LY7U34FZmBgYDMQO0xWOknbD95hFMgPOIeSD0o5qvXJ7dbMkYmdY063d2W_urgcfS7NLtRHMCqSmL6sMsNirajAGc1n3MEbNxfdUlDMRxe6f8oqPmu6cB77UX06ZWiY3DfKkfMEGXQ&state=dea93d294be0d92fae7ab73cf880933f6bf614a22081e8f1" for 104.174.110.160 at 2016-04-05 21:11:34 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBEiZ16vdMuY-t2O_Jxc5STzeGjWn3PRi3g40QdoUTOgexbDDzppJnRkF-b3F6mwD9yUpdqe7Dlu6qfr3hJoI48t0J77smPZJXQ4YFlo9xHi-O_QoQyylKfIRDBj4NLuRUEmiYKWsaGusKPI7ULxpvA7yMAC8xHcBPgT1Gk0hP_19AjqJ-cjMZ_Xs-oY4JXvYLBkXcVFobA8NzrXgJnnAUjfxsVOcoalXw-LY7U34FZmBgYDMQO0xWOknbD95hFMgPOIeSD0o5qvXJ7dbMkYmdY063d2W_urgcfS7NLtRHMCqSmL6sMsNirajAGc1n3MEbNxfdUlDMRxe6f8oqPmu6cB77UX06ZWiY3DfKkfMEGXQ", "state"=>"dea93d294be0d92fae7ab73cf880933f6bf614a22081e8f1"}
+  Rendered sessions/create.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__447784931555384920_69839640766820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (34.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (152.1ms)
+
+
+Started GET "/auth/facebook/callback?code=AQBEiZ16vdMuY-t2O_Jxc5STzeGjWn3PRi3g40QdoUTOgexbDDzppJnRkF-b3F6mwD9yUpdqe7Dlu6qfr3hJoI48t0J77smPZJXQ4YFlo9xHi-O_QoQyylKfIRDBj4NLuRUEmiYKWsaGusKPI7ULxpvA7yMAC8xHcBPgT1Gk0hP_19AjqJ-cjMZ_Xs-oY4JXvYLBkXcVFobA8NzrXgJnnAUjfxsVOcoalXw-LY7U34FZmBgYDMQO0xWOknbD95hFMgPOIeSD0o5qvXJ7dbMkYmdY063d2W_urgcfS7NLtRHMCqSmL6sMsNirajAGc1n3MEbNxfdUlDMRxe6f8oqPmu6cB77UX06ZWiY3DfKkfMEGXQ&state=dea93d294be0d92fae7ab73cf880933f6bf614a22081e8f1" for 104.174.110.160 at 2016-04-05 21:12:25 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"FYuQEdMKzGe"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.1ms)
+
+
+Started GET "/auth/facebook/callback?code=AQBIJz4i_r0wy4uBeDIb-uVRofvedIKItRQuAaezbNlp-AI4CjyNmFFCL3grIN__PvaqK33AdLddAl--U8uDYefb05-dwmKfYeuiJoevSNXCdFZiBW4Q_l04LJZHOIqY1YVXrzTffb_Om8ydRma35LVjn7O1tv4zDrYEg4C3BNgg85rVxgNgIBzz4jbbIXeiREeO5MJL5cx6VDeqROxDW0bs1FMnrwHz_vxoXrOhDu80BsH5Kfr0VOybIL_VrRIwq5JAfWWkCB7eiwqW2FzyvgI1YfD-qKlE9Uq8znHNqVrBdZTLzcv57jfAACxiAxwVWr2mAOczWld77yqHwukMHHdkBO1aigy140OKToqOIJQFwg&state=dea93d294be0d92fae7ab73cf880933f6bf614a22081e8f1" for 104.174.110.160 at 2016-04-05 21:12:28 +0000
+Cannot render console from 104.174.110.160! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBIJz4i_r0wy4uBeDIb-uVRofvedIKItRQuAaezbNlp-AI4CjyNmFFCL3grIN__PvaqK33AdLddAl--U8uDYefb05-dwmKfYeuiJoevSNXCdFZiBW4Q_l04LJZHOIqY1YVXrzTffb_Om8ydRma35LVjn7O1tv4zDrYEg4C3BNgg85rVxgNgIBzz4jbbIXeiREeO5MJL5cx6VDeqROxDW0bs1FMnrwHz_vxoXrOhDu80BsH5Kfr0VOybIL_VrRIwq5JAfWWkCB7eiwqW2FzyvgI1YfD-qKlE9Uq8znHNqVrBdZTLzcv57jfAACxiAxwVWr2mAOczWld77yqHwukMHHdkBO1aigy140OKToqOIJQFwg", "state"=>"dea93d294be0d92fae7ab73cf880933f6bf614a22081e8f1"}
+  Rendered sessions/create.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
