@@ -138,3 +138,191 @@ Migrating to CreateUsers (20160405235315)
   [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160405235315"]]
   [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2016-04-05 20:29:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 21ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-05 20:29:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook/callback?code=AQB3mwBwJqtY2cUOuEGP4FjJdFm8kPSJAsj8ZEktAJz8vHc7Y0_uJ0iqSMibAiBhGNnH6f2Gqv1DABKdUZPSWebTTwPj96DipER9qL4c9rRJaa3NErH0soz9q9-HoYQXpT4iu83GJiDg1Bh9e6cZ-Wo6Dugo5rvV6nF6sEWisb8vwsRCaAJ2j-nz-y_t3BFj7p8bULjqVR9FZ4c1K8wJEABKL3wOVBm4VqO6Us2wVUz_7yGMPgFKEwaiD2PgDH3_i3MP6b_wnCUCpbI7_ki36ZR5fFSMJgbL6VOt7ICkeQVXB0PBEDVyVq24EWLZID4gI08&state=9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab" for ::1 at 2016-04-05 20:29:50 -0400
+
+OAuth2::Error (: 
+{"error":{"message":"This authorization code has expired.","type":"OAuthException","code":100,"fbtrace_id":"DBmz\/MK\/igi"}}):
+  oauth2 (1.1.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.1.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.1.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:114:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:71:in `block in callback_phase'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:135:in `with_authorization_code!'
+  omniauth-facebook (3.0.0) lib/omniauth/strategies/facebook.rb:70:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Alvin/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Alvin/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Alvin/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.2ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (100.3ms)
+
+
+Started GET "/auth/facebook/callback?code=AQBdd4P8fNjf32jBgWJiKkXNt0VXUdeyP3TRk415cZI3K6Y33EEFMhw7TQs96GDOPlDdGLesFczoxtl22GJ3E-YUQDNXyk3b8CCH_QGXoKUPgZMGzfIJHdmHZdVH1dBCNafXnqC8BDnt8oSpSg5Xl9XJ2wReW6Z-ZYL-v1wr67kgX-GnJWd38bC1C_PmgZNWeB3f3QnxrhwYZBtco81nQYoWQ_N56UVWNXuMq2U5o2XT8RkP-9gOfPs5hn2mJgUOGopD2WaTH7_OoYviNQrNqPursgozsefJJNzfwvWCGaocjUf1hxg6GeIrebNHaIZurLA&state=9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab" for ::1 at 2016-04-05 20:31:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBdd4P8fNjf32jBgWJiKkXNt0VXUdeyP3TRk415cZI3K6Y33EEFMhw7TQs96GDOPlDdGLesFczoxtl22GJ3E-YUQDNXyk3b8CCH_QGXoKUPgZMGzfIJHdmHZdVH1dBCNafXnqC8BDnt8oSpSg5Xl9XJ2wReW6Z-ZYL-v1wr67kgX-GnJWd38bC1C_PmgZNWeB3f3QnxrhwYZBtco81nQYoWQ_N56UVWNXuMq2U5o2XT8RkP-9gOfPs5hn2mJgUOGopD2WaTH7_OoYviNQrNqPursgozsefJJNzfwvWCGaocjUf1hxg6GeIrebNHaIZurLA", "state"=>"9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `uid' for #<SessionsController:0x007ff3bcb31700>):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.6ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.8ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAGLhf8evK4xaf6OU03d_U0NXS9FTB-790-_6I9MKGC4QyewRQoAQyy9SgJA5G7Or_VR3ZTcfLVka-lB1_bB8r55u2BsSTA0k-KA4jAj6E7shq5y1xqZEhJ_uAxQSpuaBBItdwbAlSZlmJd8CJJqN3VsGOWXaB0gfAHKgQUi9sMTu8vQdh4dS0wLvxNPi5VA8FYu3Y2ADXsM-8sbDH2Wt_Oqx-1XSUUAjpDHD78BatFLOQoLSbMtc0qhOIXPrkXQkuRGickDWB_LjDD834FN3A1yv6eq4OFoi5hsyANmO7zluvBE6HX8Xl4UhsbOcTM28o&state=9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab" for ::1 at 2016-04-05 20:31:11 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAGLhf8evK4xaf6OU03d_U0NXS9FTB-790-_6I9MKGC4QyewRQoAQyy9SgJA5G7Or_VR3ZTcfLVka-lB1_bB8r55u2BsSTA0k-KA4jAj6E7shq5y1xqZEhJ_uAxQSpuaBBItdwbAlSZlmJd8CJJqN3VsGOWXaB0gfAHKgQUi9sMTu8vQdh4dS0wLvxNPi5VA8FYu3Y2ADXsM-8sbDH2Wt_Oqx-1XSUUAjpDHD78BatFLOQoLSbMtc0qhOIXPrkXQkuRGickDWB_LjDD834FN3A1yv6eq4OFoi5hsyANmO7zluvBE6HX8Xl4UhsbOcTM28o", "state"=>"9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `uid' for #<SessionsController:0x007ff3bbb7afc8>):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.1ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.6ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.5ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAhxU_hfN8qiSYsw6og6pdTWB2LPf0Kw3GJV5e04zKtKsdEKgkH8x-Q8Dd4oQ4bGkCZRFGBgbpt4tkJCxnapeVMC6d2cLTyl3LaiJukJXX9S4rW4gVWqDA8Ds1qlDnmvPMauarRAh72-fp86Xon5je--pV7ck_ZVlej2M0Vg2vTchr99dDc7ML0fTY9rksF4M8N1g1TgtWAbUqpVa5_-XkDncaOFt_5GuyVsLvrA_7bDF_KTCanz8NRAFd7aaVDDUYvZonOvS7v8FmQC6nBCg-7AuLhb8_ggHgIITEEVo5brPn13uaNfQAUrMSge_Lr1jE&state=9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab" for ::1 at 2016-04-05 20:31:12 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAhxU_hfN8qiSYsw6og6pdTWB2LPf0Kw3GJV5e04zKtKsdEKgkH8x-Q8Dd4oQ4bGkCZRFGBgbpt4tkJCxnapeVMC6d2cLTyl3LaiJukJXX9S4rW4gVWqDA8Ds1qlDnmvPMauarRAh72-fp86Xon5je--pV7ck_ZVlej2M0Vg2vTchr99dDc7ML0fTY9rksF4M8N1g1TgtWAbUqpVa5_-XkDncaOFt_5GuyVsLvrA_7bDF_KTCanz8NRAFd7aaVDDUYvZonOvS7v8FmQC6nBCg-7AuLhb8_ggHgIITEEVo5brPn13uaNfQAUrMSge_Lr1jE", "state"=>"9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `uid' for #<SessionsController:0x007ff3bbc50e48>):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.5ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.1ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.4ms)
+
+
+Started GET "/auth/facebook/callback?code=AQDfbnMhKZk6TrcWwUZbsMSmD5nngjnPlFYDaKCEn4CXbtL3X5WyKkI9M4VytAudOsOoJmjravdEtMUr8tgBJHHmqZqO0PkxZ5mPAcenilqikbLmJ8u4c7jUtmWKWTlUAZXaqyluK_mkNbRu7HjEIfZx_fR_gnCV7ioLuX3IgdDZ3HRX61X2B6b7zS_SVBphVf3cw5Ze4nJ0YebffBhLpOJjPLLukdrEXs67Ru1hZdMYs-JsMZp_ERqhE0HkJg7UbEgrYm_1_m0e4HG0LNEQLupF2hi-FLLseIpgyNVKuTZelfI5D1Y7i-Fe68XvQ7K1XF8&state=9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab" for ::1 at 2016-04-05 20:31:14 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDfbnMhKZk6TrcWwUZbsMSmD5nngjnPlFYDaKCEn4CXbtL3X5WyKkI9M4VytAudOsOoJmjravdEtMUr8tgBJHHmqZqO0PkxZ5mPAcenilqikbLmJ8u4c7jUtmWKWTlUAZXaqyluK_mkNbRu7HjEIfZx_fR_gnCV7ioLuX3IgdDZ3HRX61X2B6b7zS_SVBphVf3cw5Ze4nJ0YebffBhLpOJjPLLukdrEXs67Ru1hZdMYs-JsMZp_ERqhE0HkJg7UbEgrYm_1_m0e4HG0LNEQLupF2hi-FLLseIpgyNVKuTZelfI5D1Y7i-Fe68XvQ7K1XF8", "state"=>"9e04fca2b0438bb0741daee02ef7bbcdb0368f6764fdb1ab"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `uid' for #<SessionsController:0x007ff3bbceb768>):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.9ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (85.7ms)
+
+
+Started GET "/rails/info/properties" for ::1 at 2016-04-05 20:31:17 -0400
+Processing by Rails::InfoController#properties as */*
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /Users/Alvin/.rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/info/properties.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 26.9ms | ActiveRecord: 0.2ms)
