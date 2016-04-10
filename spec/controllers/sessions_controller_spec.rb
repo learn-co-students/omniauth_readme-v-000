@@ -3,16 +3,15 @@ require 'rails_helper'
 RSpec.describe SessionsController, type: :controller do
   describe 'get create' do
     it 'assigns omniauth data to @auth' do
-      auth_data = { 
-        'uid' => 1,     
+      auth = {
         'info' => {
-          email: 'Roberto@test.com',
-          name: 'Roberto',
+          email: 'bob@gmail.com',
+          name: 'Bob Smith',
         }
       }
-      @request.env['omniauth.auth'] = auth_data
+      @request.env['omniauth.auth'] = auth
       get :create
-      expect(subject.auth).to eq(auth_data)
+      assert assigns(:auth) == auth
     end
   end
 end
