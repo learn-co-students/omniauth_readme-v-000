@@ -698,3 +698,119 @@ ActionView::Template::Error (only generation of JSON objects or arrays allowed):
   Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
   Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
   Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.6ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:11:41 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:11:41 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQDZc51omZkUL2dweTM487SOgepArUcAem3l9JsA5GejnQ1JGNpb6Iz9mrGkXIsrW2Xi9gJ-S5ike4Wp5X3rVBG7bPOxA8-qm7R2eo_tdYSvS_vD6ZuA_DVVE2JIwNmd4W-2Z1t-N9NUc5kTkSXJ0LjbZ1HkcrIvR3ax9rJoaj8py9J_rar7ycLlZ1chzbDPJQvtE3K_4_i5bSTcfHouY3lgUZLIOFypzjWhlJMUTOM7YG-EFtv1UStBRszM9fz-SaE-riGUPeL1dm4RPgxP2HjhRJ39uiRRUMW1XL1xJCKtDFRt-31NdV7suftYMwEi_bk&state=c973a6620fc800b3378886934702bde3dc0ce2d92883b4a3" for 127.0.0.1 at 2016-04-13 23:11:41 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDZc51omZkUL2dweTM487SOgepArUcAem3l9JsA5GejnQ1JGNpb6Iz9mrGkXIsrW2Xi9gJ-S5ike4Wp5X3rVBG7bPOxA8-qm7R2eo_tdYSvS_vD6ZuA_DVVE2JIwNmd4W-2Z1t-N9NUc5kTkSXJ0LjbZ1HkcrIvR3ax9rJoaj8py9J_rar7ycLlZ1chzbDPJQvtE3K_4_i5bSTcfHouY3lgUZLIOFypzjWhlJMUTOM7YG-EFtv1UStBRszM9fz-SaE-riGUPeL1dm4RPgxP2HjhRJ39uiRRUMW1XL1xJCKtDFRt-31NdV7suftYMwEi_bk", "state"=>"c973a6620fc800b3378886934702bde3dc0ce2d92883b4a3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10103663023164081]]
+  Rendered sessions/create.html.erb within layouts/application (30197.0ms)
+Completed 500 Internal Server Error in 30200ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <% byebug %>
+    2: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    3: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:2:in `_app_views_sessions_create_html_erb__778499782941252296_69938946026960'
+
+
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+Processing by SessionsController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-13 23:12:35 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:12:37 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:12:37 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQALlKFz6FIUl7yUn-rM_J0K9D45qUKvHn4irAyJsGU91NZ2vEd1ZjeUwps2fNsVtWeY8MupkocYrJ30Xoxd4MBaDEYXoP7gReR29QcI-sKPDwEA7ZLnKbqnbyr6eapvfwdfPU8oY7_o5-Jl4jbwPNDjLXIujrstXyUN0J-ji7cvzfAlHfVkgOUSzqZ0nntOEmEDeOp1tqilbEud9mJrgEUmbJoTiotgc8UbL3mUByzgfPvsHjTX2cxgTenb0vRHxPZsytWiKq_PuMvD_Yz-YjZZT9_r0F7GlqZ_Af8LDis1Dd-uKlxHjRanvvwwuUUxy_A&state=bf55db467bcf431a06cc172dd8093636a6f2407e423c9add" for 127.0.0.1 at 2016-04-13 23:12:38 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQALlKFz6FIUl7yUn-rM_J0K9D45qUKvHn4irAyJsGU91NZ2vEd1ZjeUwps2fNsVtWeY8MupkocYrJ30Xoxd4MBaDEYXoP7gReR29QcI-sKPDwEA7ZLnKbqnbyr6eapvfwdfPU8oY7_o5-Jl4jbwPNDjLXIujrstXyUN0J-ji7cvzfAlHfVkgOUSzqZ0nntOEmEDeOp1tqilbEud9mJrgEUmbJoTiotgc8UbL3mUByzgfPvsHjTX2cxgTenb0vRHxPZsytWiKq_PuMvD_Yz-YjZZT9_r0F7GlqZ_Af8LDis1Dd-uKlxHjRanvvwwuUUxy_A", "state"=>"bf55db467bcf431a06cc172dd8093636a6f2407e423c9add"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1[0m  [["uid", 10103663023164081]]
+  Rendered sessions/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 21.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:15:07 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:15:07 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQDwu-9eACAt3x0c2x0_r3QVomMwLDoJT4SX-CswuKAi32Xslc5dcy4P2lBU0jf75ZhXTFm0z5MoHMNLZxig4s_mtQGk0Gsrpd4DuwAa1slj2__bCT8rFkk6M1f49KIz_uXPoXOATuQFmdmtcC1TSMg_GPz6FNES0fSPJlsH6giKOa6E33BuwdSgSwexxwRmuL17Nw-9vxec28MkOiiJ8CiGYwi8oBj8gVMDY8kLjTI3XDvppftrxHmXVro7rYoQBfwHGH3m9r8UlYsoeV2TwCIW7B68AlsaeJwTMCo8_pPTwujt4ZQRsdLtcA9YTYrXXDw&state=ca7a7e1321ef18126d34d31ac4125f6045c1c560b557dcdf" for 127.0.0.1 at 2016-04-13 23:15:07 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDwu-9eACAt3x0c2x0_r3QVomMwLDoJT4SX-CswuKAi32Xslc5dcy4P2lBU0jf75ZhXTFm0z5MoHMNLZxig4s_mtQGk0Gsrpd4DuwAa1slj2__bCT8rFkk6M1f49KIz_uXPoXOATuQFmdmtcC1TSMg_GPz6FNES0fSPJlsH6giKOa6E33BuwdSgSwexxwRmuL17Nw-9vxec28MkOiiJ8CiGYwi8oBj8gVMDY8kLjTI3XDvppftrxHmXVro7rYoQBfwHGH3m9r8UlYsoeV2TwCIW7B68AlsaeJwTMCo8_pPTwujt4ZQRsdLtcA9YTYrXXDw", "state"=>"ca7a7e1321ef18126d34d31ac4125f6045c1c560b557dcdf"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10103663023164081]]
+  Rendered sessions/create.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined local variable or method `auth' for #<#<Class:0x007f37e9965aa0>:0x007f37e99650f0>):
+    1: <pre><%= JSON.pretty_generate(auth) %></pre>
+    2: <img src="<%= auth[:info] && auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__778499782941252296_69939059482420'
+
+
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.9ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hollabr/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:15:34 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-04-13 23:15:34 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQAOu-6c51RYZuGWyur9uYDja1wXJm7BHctZdFv9qK_uFT_DDyM8yC0krWFyNT4_X-P4vIYb2rM7VwKwqT2FCtXxRDyTcCQPYdqERco45mhgJnl3_4ABkDF7qzP9YNoQZqbeMd44EDGyw_khgqiBFyJzt5ltTym0H-h3la2JL62oBnD8aFGUVGflZyik3yOI7bUBStTrb8KZxIkOYL5sFUuE8Tl7zIrnQtOD9M33N-cv-rQrLPl0vcMH7-vdtrZd7uUS_MnPo0E0n1i6F1BfbfRm_LBNEV2Dz9Jtao2Fx8qjoT27xFxMAuOY28FQmtBa5gs&state=53fc333167a933dc2f5ec70f710289bf303fd23fcfc662be" for 127.0.0.1 at 2016-04-13 23:15:34 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAOu-6c51RYZuGWyur9uYDja1wXJm7BHctZdFv9qK_uFT_DDyM8yC0krWFyNT4_X-P4vIYb2rM7VwKwqT2FCtXxRDyTcCQPYdqERco45mhgJnl3_4ABkDF7qzP9YNoQZqbeMd44EDGyw_khgqiBFyJzt5ltTym0H-h3la2JL62oBnD8aFGUVGflZyik3yOI7bUBStTrb8KZxIkOYL5sFUuE8Tl7zIrnQtOD9M33N-cv-rQrLPl0vcMH7-vdtrZd7uUS_MnPo0E0n1i6F1BfbfRm_LBNEV2Dz9Jtao2Fx8qjoT27xFxMAuOY28FQmtBa5gs", "state"=>"53fc333167a933dc2f5ec70f710289bf303fd23fcfc662be"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1[0m  [["uid", 10103663023164081]]
+  Rendered sessions/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 18.5ms | ActiveRecord: 0.8ms)

@@ -9,6 +9,9 @@ class SessionsController < ApplicationController
       u.email = auth['info']['email']
     end
     session[:user_id] = @user.id
+
+    #this line helps make the 'create.html.erb' file actually show you something
+    @auth = auth
   end
 
   def auth
