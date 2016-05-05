@@ -1,0 +1,53 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-05 08:01:38 -0700
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 924ms (Views: 900.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-05-05 08:01:41 -0700
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2016-05-05 08:01:41 -0700
+
+
+Started GET "/auth/facebook/callback?code=AQAOyE-sbj0g0f1XG4ol9s-IpLu6qeSc0L408FU8teb-DCe44p6oT-O2k4A_A56ekqHoZhFRxat9W1NRD_9dWql2dqglbuX045_gopwl9w1s2FYQXUeCqrRvMiD1U7B3mdEI7v-653Dvd6mIGFvqPHheHVDTPSRMZG5sxzL3eX6pYh_g5fuqo5nOrAPlMiQ3o_42rXla0tNJwxCldugVOG-M7vknlhlT6nICfzP1ZG6gVsDU7-d_r9rh54dYEQ8oZ7cYeDJSmGm-Fof8nkJq-Or18orc3FtMTFSh54RyHRXkIrC-GMh6iU5L3x38kln5742Fum6CnpenOBgVyPtUvfOt&state=219b2a6115dcc2136369cca226cecf498640a821c7c719a4" for 127.0.0.1 at 2016-05-05 08:01:52 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAOyE-sbj0g0f1XG4ol9s-IpLu6qeSc0L408FU8teb-DCe44p6oT-O2k4A_A56ekqHoZhFRxat9W1NRD_9dWql2dqglbuX045_gopwl9w1s2FYQXUeCqrRvMiD1U7B3mdEI7v-653Dvd6mIGFvqPHheHVDTPSRMZG5sxzL3eX6pYh_g5fuqo5nOrAPlMiQ3o_42rXla0tNJwxCldugVOG-M7vknlhlT6nICfzP1ZG6gVsDU7-d_r9rh54dYEQ8oZ7cYeDJSmGm-Fof8nkJq-Or18orc3FtMTFSh54RyHRXkIrC-GMh6iU5L3x38kln5742Fum6CnpenOBgVyPtUvfOt", "state"=>"219b2a6115dcc2136369cca226cecf498640a821c7c719a4"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::User):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.2ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/robert/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (56.4ms)
+  [1m[36m (97.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (125.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160505150357)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160505150357"]]
+  [1m[36m (349.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddColumnUsers (20160505150454)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "uid" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160505150454"]]
+  [1m[36m (107.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
