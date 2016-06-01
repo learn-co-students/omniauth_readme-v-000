@@ -1,0 +1,195 @@
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:12:47 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 17ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:12:48 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:15:21 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (6.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (4.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20160601112746)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160601112746"]]
+  [1m[35m (3.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUidToUsers (20160601113443)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "uid" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160601113443"]]
+  [1m[36m (4.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:35:36 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1267ms (Views: 1257.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:35:38 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:35:44 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:35:45 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:38:47 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 182ms (Views: 172.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:38:51 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:38:52 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQAine3dX_pY-QdQhNU_TdiCBfWnNuH8CrqK3AlkIm_HwNQRnjnRyL2-dHSk50ZfkGocjUvlw1rPEt9pHoF6UQWrnuhNwBIWs0s1AWwKGjdCs4xLs6s5NHgsqvi09rW7XhG9o8DM4QBr-uLe-xTu7xQUIeX3gbsDePyZZRhCX8IY2yU7LtMxz1DvnrMsSNbPWxhTGDWrE_qDR4HJ-e0HtVGK4MNtCaZb_Csx00LoxRinXSw5e7YP7NNkczzGWmZJMWALp7t8m6NAESvX9ySNvFI_Mif7VUbMVF1_8va7SV2cl3_WK7AhurHeWPmIdgvgClkwHzeVuyYVX5y0DCglkXt5&state=1140e36dfeb6180f3fa6dc85313d6c30cb2d4896778aa8d7" for 49.144.128.46 at 2016-06-01 19:39:18 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAine3dX_pY-QdQhNU_TdiCBfWnNuH8CrqK3AlkIm_HwNQRnjnRyL2-dHSk50ZfkGocjUvlw1rPEt9pHoF6UQWrnuhNwBIWs0s1AWwKGjdCs4xLs6s5NHgsqvi09rW7XhG9o8DM4QBr-uLe-xTu7xQUIeX3gbsDePyZZRhCX8IY2yU7LtMxz1DvnrMsSNbPWxhTGDWrE_qDR4HJ-e0HtVGK4MNtCaZb_Csx00LoxRinXSw5e7YP7NNkczzGWmZJMWALp7t8m6NAESvX9ySNvFI_Mif7VUbMVF1_8va7SV2cl3_WK7AhurHeWPmIdgvgClkwHzeVuyYVX5y0DCglkXt5", "state"=>"1140e36dfeb6180f3fa6dc85313d6c30cb2d4896778aa8d7"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.7ms)
+
+RangeError (1727598120815480 is out of range for ActiveRecord::Type::Integer with limit 4):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:44:55 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 181ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:44:57 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:44:58 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQDZiLO0fWXCOsQ9hUY-JrD8GKvIy4IJhHpzCzSRZVOUb4uip9Oc8baNUB113ZyBNw5Ms7XP2odpM_EBmzBW7jbSXNSEeE2PwMs-PPgbxjALnUsAC6YLfKJKccM8rWcfTZkgqNPwR_0ykBsLK_EPuYXcPgtffMFQriFpdQD5txYmLfSS0TFSYjCMIMTvYfoXp0u7nVFTRw54XmRu2YBFWfZB3g850w_jZuVjz1lRP7-y8wZjKf886RtzOeDTGumWnuVufvHEBpArvzI1Yt9uQS5WyFtnTV41VXEdb10BoB-hS058Th89PU6X8sUqiV3qPS1L-jnmbQr-zkwYQ4uMIFgk&state=1f4110b367a2fedf046e93c2236e7c3259fbf67d61461d0c" for 49.144.128.46 at 2016-06-01 19:45:05 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDZiLO0fWXCOsQ9hUY-JrD8GKvIy4IJhHpzCzSRZVOUb4uip9Oc8baNUB113ZyBNw5Ms7XP2odpM_EBmzBW7jbSXNSEeE2PwMs-PPgbxjALnUsAC6YLfKJKccM8rWcfTZkgqNPwR_0ykBsLK_EPuYXcPgtffMFQriFpdQD5txYmLfSS0TFSYjCMIMTvYfoXp0u7nVFTRw54XmRu2YBFWfZB3g850w_jZuVjz1lRP7-y8wZjKf886RtzOeDTGumWnuVufvHEBpArvzI1Yt9uQS5WyFtnTV41VXEdb10BoB-hS058Th89PU6X8sUqiV3qPS1L-jnmbQr-zkwYQ4uMIFgk", "state"=>"1f4110b367a2fedf046e93c2236e7c3259fbf67d61461d0c"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.8ms)
+
+RangeError (1727598120815480 is out of range for ActiveRecord::Type::Integer with limit 4):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddUidToUsers (20160601113443)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "ausers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "uid" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "ausers"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "ausers"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20160601113443"]]
+  [1m[36m (4.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUidToUsers (20160601113443)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "uid" integer(8)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160601113443"]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:48:12 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 181ms (Views: 171.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 49.144.128.46 at 2016-06-01 19:48:30 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:48:34 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 49.144.128.46 at 2016-06-01 19:48:37 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQCB4kUkt31sku0e0uVNyGen6w4NbCfed_zlraHGJQQ9B5qGGK5JyLgpQkGJK9nkQsJeDOjbiaH-1HsVokwHRAPAJbPXcH385FpZhenNpv7JTbdJPanpwf3fh1eVuBEiLb-JrmkDZJ8ioPSQB5wARDUVoZ7Ws5us0XInZhWfGojW1RGNeUIEyPhcIqJm__rK4B6B90Q4jN2hElL4VST1Upx3ljHoLw18brVwHv2_zYdFxylSIdfE3toHgFMxLx3F5wUKE-suybbkOVat64apj6vJxbVAKgfwMnd3z21cnEU28zEbsvssRO6e7Q1ZgSKeDDAwWhcdO6NCBCEq8PDqkxDc&state=5d48934a287c5e7e7c4b9468dc0ad262bba5137bf139bbc4" for 49.144.128.46 at 2016-06-01 19:48:52 +0800
+Cannot render console from 49.144.128.46! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCB4kUkt31sku0e0uVNyGen6w4NbCfed_zlraHGJQQ9B5qGGK5JyLgpQkGJK9nkQsJeDOjbiaH-1HsVokwHRAPAJbPXcH385FpZhenNpv7JTbdJPanpwf3fh1eVuBEiLb-JrmkDZJ8ioPSQB5wARDUVoZ7Ws5us0XInZhWfGojW1RGNeUIEyPhcIqJm__rK4B6B90Q4jN2hElL4VST1Upx3ljHoLw18brVwHv2_zYdFxylSIdfE3toHgFMxLx3F5wUKE-suybbkOVat64apj6vJxbVAKgfwMnd3z21cnEU28zEbsvssRO6e7Q1ZgSKeDDAwWhcdO6NCBCEq8PDqkxDc", "state"=>"5d48934a287c5e7e7c4b9468dc0ad262bba5137bf139bbc4"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 1727598120815480]]
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("uid", "name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["uid", 1727598120815480], ["name", "Jake Malto"], ["email", "jakemalto2014@gmail.com"], ["created_at", "2016-06-01 11:48:53.050937"], ["updated_at", "2016-06-01 11:48:53.050937"]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
+  Rendered sessions/create.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 5.9ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__4133352838046738413_69868732209060'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.2ms)
