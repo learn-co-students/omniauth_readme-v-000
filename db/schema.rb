@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20160618174644) do
   create_table "users", force: :cascade do |t|
     t.string  "name"
     t.string  "email"
-    t.integer "uid"
+    t.integer "uid",   limit: 18
   end
 
 end
