@@ -217,3 +217,146 @@ ActionView::Template::Error (only generation of JSON objects or arrays allowed):
   Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (137.4ms)
+
+
+Started GET "/" for ::1 at 2016-07-27 16:55:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 200ms (Views: 190.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:55:57 -0400
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:55:57 -0400
+
+
+Started GET "/auth/facebook/callback?code=AQCo9W8pltCfIglpSt9TrZegTQtk2XXHRIuG_aNSyA1t8ewJMtOhj_n2RDEgCo6w2-XZlY76QmfhgBCY-q1LKKrS2wGIdG20I4cO69sOUtVW2Xfi-u75GZR9dA00r0ukAM_Sanu7dX5YZm6cYSZBk4SgsW6B9aNespsCyerAnXv81AimfacBuRNFtmdw9kQKr9OblPAIScgQfkBAX00R1mUH4fsld8q2OOQuUbEJlvvEI7N8j9gn_dRzwb1RY3TcGuRYKOmwjADweSvehHxUSTC-j58xJqy0RrZQUPQ4Uy1LK2JEyzUxWirTpnwKCG_Axyv75G2NaFrLBC02rhNku9UC&state=97b1d3f90d09c7c0b925206765ca7e26831f7d8be67655ec" for ::1 at 2016-07-27 16:55:58 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCo9W8pltCfIglpSt9TrZegTQtk2XXHRIuG_aNSyA1t8ewJMtOhj_n2RDEgCo6w2-XZlY76QmfhgBCY-q1LKKrS2wGIdG20I4cO69sOUtVW2Xfi-u75GZR9dA00r0ukAM_Sanu7dX5YZm6cYSZBk4SgsW6B9aNespsCyerAnXv81AimfacBuRNFtmdw9kQKr9OblPAIScgQfkBAX00R1mUH4fsld8q2OOQuUbEJlvvEI7N8j9gn_dRzwb1RY3TcGuRYKOmwjADweSvehHxUSTC-j58xJqy0RrZQUPQ4Uy1LK2JEyzUxWirTpnwKCG_Axyv75G2NaFrLBC02rhNku9UC", "state"=>"97b1d3f90d09c7c0b925206765ca7e26831f7d8be67655ec"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10206679353442405]]
+  Rendered sessions/create.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 24857ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: 
+    2: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    3: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:2:in `_app_views_sessions_create_html_erb___2378940421849958486_70283891947740'
+
+
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.1ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (68.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (158.1ms)
+
+
+Started GET "/" for ::1 at 2016-07-27 16:56:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 191ms (Views: 180.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:56:56 -0400
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:56:56 -0400
+
+
+Started GET "/auth/facebook/callback?code=AQDPOlQCFRvVz5m4xYjNcUwOxNG530mi5uQF4EUn4Gvihv8ptq1t4T6sB3ZkzGs0ZSL-ktuNc3OO-M4Sjl2vKHVn_t0zlWz9abFT_Ae6YAxa5hsv_eDg0WoaAzZUBENDwVC6o-YVMAtqBBJrIfxlLE7NXtSprnQDyhmmDESfrpHyNoXeDluzgIeAxPN3Tly_HOFOA8Q26fNThyh16sjyamsg8QXq5yQ4abCX86rDTFB4Ba8mvauwl4JvGbJPNr39l8u9TR5M2RLrMiX1Dzo8XPQD151mhb4_8wZFl_Hhu4o666_TUEsAcIacqNbdBSJIO2DWnKf-Jyx6q7I5YHOGfbca&state=5f4a498e7b50bddc5b5d288aa9c11eff85200e6b7261d0a1" for ::1 at 2016-07-27 16:56:56 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDPOlQCFRvVz5m4xYjNcUwOxNG530mi5uQF4EUn4Gvihv8ptq1t4T6sB3ZkzGs0ZSL-ktuNc3OO-M4Sjl2vKHVn_t0zlWz9abFT_Ae6YAxa5hsv_eDg0WoaAzZUBENDwVC6o-YVMAtqBBJrIfxlLE7NXtSprnQDyhmmDESfrpHyNoXeDluzgIeAxPN3Tly_HOFOA8Q26fNThyh16sjyamsg8QXq5yQ4abCX86rDTFB4Ba8mvauwl4JvGbJPNr39l8u9TR5M2RLrMiX1Dzo8XPQD151mhb4_8wZFl_Hhu4o666_TUEsAcIacqNbdBSJIO2DWnKf-Jyx6q7I5YHOGfbca", "state"=>"5f4a498e7b50bddc5b5d288aa9c11eff85200e6b7261d0a1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10206679353442405]]
+  Rendered sessions/create.html.erb within layouts/application (109797.0ms)
+Completed 500 Internal Server Error in 109817ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <%= require "pry" ; binding.pry %>
+    2: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    3: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:2:in `_app_views_sessions_create_html_erb__2912815595970503321_70287975810620'
+
+
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.7ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.7ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.3ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/Fish/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (148.5ms)
+
+
+Started GET "/" for ::1 at 2016-07-27 16:58:58 -0400
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:59:00 -0400
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 16:59:00 -0400
+
+
+Started GET "/auth/facebook/callback?code=AQAtMoxBBP4TeZHHROIhwC4O1E1e77zVz_34NujnlE6Z-NgGlDAg60MKkiLFBF_tLL9g00JJLAMNA35nQoHwwmUwPJ4xe7j9y_OrnfzuBCm0iVzK-qzB8YtxIS447Yi0smk1lINL2wdvBa87mwDJhSNn_arPgf5Ijt5MhDysRcf0Svsc7JaCetU1a0BO9baBWKGz3SVhBeS0nf6BiHZfXZcIHRkZEwiMYWdirWj-lql_msHi9xH-csRTUIACq9FZZD0QF3G_u9FiQBjkxVdeBoir5UfBvLVlccC8p7gc2BwfV4NP_gJpLQc9K80dv5T9hlFBVOt1uVuHT_HhjdJhAZ4H&state=8c29e5af861eef45bd9aec9170d8378903d4a49682b20eaf" for ::1 at 2016-07-27 16:59:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAtMoxBBP4TeZHHROIhwC4O1E1e77zVz_34NujnlE6Z-NgGlDAg60MKkiLFBF_tLL9g00JJLAMNA35nQoHwwmUwPJ4xe7j9y_OrnfzuBCm0iVzK-qzB8YtxIS447Yi0smk1lINL2wdvBa87mwDJhSNn_arPgf5Ijt5MhDysRcf0Svsc7JaCetU1a0BO9baBWKGz3SVhBeS0nf6BiHZfXZcIHRkZEwiMYWdirWj-lql_msHi9xH-csRTUIACq9FZZD0QF3G_u9FiQBjkxVdeBoir5UfBvLVlccC8p7gc2BwfV4NP_gJpLQc9K80dv5T9hlFBVOt1uVuHT_HhjdJhAZ4H", "state"=>"8c29e5af861eef45bd9aec9170d8378903d4a49682b20eaf"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1[0m  [["uid", 10206679353442405]]
+  Rendered sessions/create.html.erb within layouts/application (84530.5ms)
+Completed 200 OK in 84577ms (Views: 84571.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-07-27 17:00:46 -0400
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 17:00:48 -0400
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 17:00:48 -0400
+
+
+Started GET "/auth/facebook/callback?code=AQBH_dVPSWMkXoHvZM1RKZPadlPI55xrl_DPPW6imUb2CmmbXlrwlbuHLE79LxsgB-WNWVarreeXs7QR6iOlKh-kPlmPjLgIViljjBokXb1DEvIfKH4YT4rPPaAe_dfZvcobCP6TL3Q0Y8Kmc32-8_JKSkGaveCaAad1Xp9qCxJ_cMxvHqEsi67v8ZQqLrwZzYEP9nm-moe2eHmQbDIj_g2H3Ypos2fHfigxDHJfyLe-_XtxIYSIN4cTZjhx4hBzSNWfErH9My1PYX63DulnvNqKiT_pwTynfErNEJfmNksd2uFO863Z4ENXuSMTzz6DZwiYfGd_FnNviZHl9jWr0H8x&state=a5b4cfbcc6fbf9ee469c5f60c0fb59ff236d3cbb2390923f" for ::1 at 2016-07-27 17:00:48 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBH_dVPSWMkXoHvZM1RKZPadlPI55xrl_DPPW6imUb2CmmbXlrwlbuHLE79LxsgB-WNWVarreeXs7QR6iOlKh-kPlmPjLgIViljjBokXb1DEvIfKH4YT4rPPaAe_dfZvcobCP6TL3Q0Y8Kmc32-8_JKSkGaveCaAad1Xp9qCxJ_cMxvHqEsi67v8ZQqLrwZzYEP9nm-moe2eHmQbDIj_g2H3Ypos2fHfigxDHJfyLe-_XtxIYSIN4cTZjhx4hBzSNWfErH9My1PYX63DulnvNqKiT_pwTynfErNEJfmNksd2uFO863Z4ENXuSMTzz6DZwiYfGd_FnNviZHl9jWr0H8x", "state"=>"a5b4cfbcc6fbf9ee469c5f60c0fb59ff236d3cbb2390923f"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10206679353442405]]
+  Rendered sessions/create.html.erb within layouts/application (35492.0ms)
+Completed   in 35502ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-07-27 17:01:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 209ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 17:01:45 -0400
+
+
+Started GET "/auth/facebook" for ::1 at 2016-07-27 17:01:45 -0400
+
+
+Started GET "/auth/facebook/callback?code=AQB5mf4m0bKVFMwM7aq4sg8DI0-W1Cp1WlBlAk2ZjdDPiEayqjKt5X4NHYFSbcz7tEdY0F50yS3eIiKENONsPJ_u9OtZwr6tAYuycsm3RnHKyH-e3wztkmg5f_neB4jM12R8ifIaAXbzwPQK8WKxei_swL4mYWWSRTVuXrQwyqHXcwKFJqIWhStmZK5o5HRSjEa8V03peblt-g_y5hSQkQb3fmCbqAvg5r_wMnUA8F0NGJa5V4eT5gwO1HHBSZy4z6tMCbfi3vCz9wJ2cL5Mzb6qqIWb5NOSXgtV6Fw2etSzQJ28tviCAq0sfDrVKU6QrLbVn_FrCOPGQHvVSiuueHsY&state=6f222a11ddaadf6cb315eb2660bbab2fde981175bb83ac09" for ::1 at 2016-07-27 17:01:45 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQB5mf4m0bKVFMwM7aq4sg8DI0-W1Cp1WlBlAk2ZjdDPiEayqjKt5X4NHYFSbcz7tEdY0F50yS3eIiKENONsPJ_u9OtZwr6tAYuycsm3RnHKyH-e3wztkmg5f_neB4jM12R8ifIaAXbzwPQK8WKxei_swL4mYWWSRTVuXrQwyqHXcwKFJqIWhStmZK5o5HRSjEa8V03peblt-g_y5hSQkQb3fmCbqAvg5r_wMnUA8F0NGJa5V4eT5gwO1HHBSZy4z6tMCbfi3vCz9wJ2cL5Mzb6qqIWb5NOSXgtV6Fw2etSzQJ28tviCAq0sfDrVKU6QrLbVn_FrCOPGQHvVSiuueHsY", "state"=>"6f222a11ddaadf6cb315eb2660bbab2fde981175bb83ac09"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10206679353442405]]
+  Rendered sessions/create.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 70ms (Views: 52.8ms | ActiveRecord: 0.8ms)
