@@ -1,0 +1,173 @@
+
+
+Started GET "/" for ::1 at 2016-08-29 12:28:07 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1141ms (Views: 1131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:28:26 -0600
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:28:27 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQCmN6gPO1A9xQy4fdW5kNDyltW1TycMjRLxU6Mj1GbKYdi4TrMBmzvZWepy1WirnQfSBX8-GjiVCZnK5qUC_NS71vrWPB87SxeXSsF-Gk5Tw8CMLS-k0gsvJGvgW4IXK8zjBTf7YRTTKEf31Vu4GPtRmvBuTtolIyvNmeU2yACfR61NqlU8DJvijrbtSgYNlSOfKykg5DYUo2DAjW1zlgSbiVGRNiJI_EATidvMZqP8Fjf4DYGE_dK_O6olWYe8V2wxmK0B2ByVLcJB4PXhruo7Wu3b_OamJItXnMpkfsuZH4ubMaPmSahMStj_ZAOwP3xZQ0k1P9fvMrmXBg9NX6BI&state=a5ed2249de07f259b9c60afb6c31f12786dd0b05c42ecc29" for ::1 at 2016-08-29 12:28:32 -0600
+
+ActionController::RoutingError (uninitialized constant SessionsController):
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:408:in `call_app!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:362:in `callback_phase'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:67:in `block in callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:131:in `with_authorization_code!'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:66:in `callback_phase'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.3.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.3.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/whitesidescr/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/whitesidescr/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/whitesidescr/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.0ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.1ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (124.6ms)
+
+
+Started GET "/" for ::1 at 2016-08-29 12:31:39 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 476ms (Views: 475.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:31:42 -0600
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:31:42 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQAEdQppRnNxKBzGOI6Kezqu5OHeLcMiI8ABeUAZpFKDaX3evkQkS4u3R1NoAHW7sjIxjx2oeP11zxmL-3R9qNidpaPs7F7D9kkFa72DyI6CBF4fkFxI1jFpyLqNnlm9EBWbE8r8YLP9qT75DVPdlcDXjjJzgOaDDngY0jBMatWsbNDmuJqYimFP1QlhQSlpVMl9VHUgQr4wjcChTJ3W3M22KKB6bQaTg4JWYMBynxIwk4AYimOQ-7D5dzmtOrGxpFsoJULAO_4e8sryHmrFEynEJnObu01unn4CS46Mhv2SiEl-BqZ9lQzfhgPdZoiYoYtZvs9sAQYXE6m4bN4pAUny&state=8b2f32651f84aebbeb2eb242f4939d0ec0fed1ad5c3f574c" for ::1 at 2016-08-29 12:31:46 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAEdQppRnNxKBzGOI6Kezqu5OHeLcMiI8ABeUAZpFKDaX3evkQkS4u3R1NoAHW7sjIxjx2oeP11zxmL-3R9qNidpaPs7F7D9kkFa72DyI6CBF4fkFxI1jFpyLqNnlm9EBWbE8r8YLP9qT75DVPdlcDXjjJzgOaDDngY0jBMatWsbNDmuJqYimFP1QlhQSlpVMl9VHUgQr4wjcChTJ3W3M22KKB6bQaTg4JWYMBynxIwk4AYimOQ-7D5dzmtOrGxpFsoJULAO_4e8sryHmrFEynEJnObu01unn4CS46Mhv2SiEl-BqZ9lQzfhgPdZoiYoYtZvs9sAQYXE6m4bN4pAUny", "state"=>"8b2f32651f84aebbeb2eb242f4939d0ec0fed1ad5c3f574c"}
+  Rendered sessions/create.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__2189217109633388721_70325976631540'
+
+
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (84.8ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.8ms)
+
+
+Started GET "/" for ::1 at 2016-08-29 12:39:18 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:39:20 -0600
+
+
+Started GET "/auth/facebook" for ::1 at 2016-08-29 12:39:20 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQBLtL9nvdnWULFe-o1mBPIiiLTAg8-_ep3y6TrA3o_emtQsJ7Fm10qU7svP0q2o2gwChHNOJGlD4B77BHU6vX3spAjCeEmaBclOSx3mq8mvHh4yOGGxHrCsnGfhzNvfIDy4qXXo_rmc2GGT9LoeM-KM1leTUWuc_A8-S4W7QQLIUjX8gPwZbWeoi_N-W_7bqQyWQGudtoyfQ8REqBfs6IXWmZEY4HDE83jl7xfpfmAoBJs4phWIvw5cqXlXLcX1kR8Bpbixaw1aGIgIphDBozFk3Q75ETpp6Q_PiHQ2Mn0U_OwnM0a6zcOOts1zFrx_bc9sAzVFXXgTLi3yJBmbBxhg&state=1755893d95dd2fac01e2f191ea39385aa7660ef0a0e5a5d1" for ::1 at 2016-08-29 12:39:24 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBLtL9nvdnWULFe-o1mBPIiiLTAg8-_ep3y6TrA3o_emtQsJ7Fm10qU7svP0q2o2gwChHNOJGlD4B77BHU6vX3spAjCeEmaBclOSx3mq8mvHh4yOGGxHrCsnGfhzNvfIDy4qXXo_rmc2GGT9LoeM-KM1leTUWuc_A8-S4W7QQLIUjX8gPwZbWeoi_N-W_7bqQyWQGudtoyfQ8REqBfs6IXWmZEY4HDE83jl7xfpfmAoBJs4phWIvw5cqXlXLcX1kR8Bpbixaw1aGIgIphDBozFk3Q75ETpp6Q_PiHQ2Mn0U_OwnM0a6zcOOts1zFrx_bc9sAzVFXXgTLi3yJBmbBxhg", "state"=>"1755893d95dd2fac01e2f191ea39385aa7660ef0a0e5a5d1"}
+  Rendered sessions/create.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__2189217109633388721_70325976631540'
+
+
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.9ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.1ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/whitesidescr/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.4ms)
