@@ -1,2 +1,6 @@
 <pre><%= JSON.pretty_generate(@auth) %></pre>
 <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+
+<a href='/auth/facebook'>Login with Facebook</a>
+
+<%= link_to("login with facebook!", "/auth/facebook") %>
