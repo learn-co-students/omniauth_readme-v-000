@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+   root 'welcome#home'
+   match '/auth/facebook/callback' => 'sessions#create'
+   match 'signout', to 'sessions#destroy', as 'signout', via: [:get, :post]
 
-  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
