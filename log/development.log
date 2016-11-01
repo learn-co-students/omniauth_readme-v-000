@@ -1,0 +1,200 @@
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 14:46:28 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 19ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 14:46:34 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 14:51:28 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 28ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 14:52:26 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1125ms (Views: 1124.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 24.63.8.186 at 2016-11-01 14:52:27 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 24.63.8.186 at 2016-11-01 14:52:27 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 24.63.8.186 at 2016-11-01 14:52:27 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 24.63.8.186 at 2016-11-01 14:52:27 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.63.8.186 at 2016-11-01 14:52:27 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 66.220.146.229 at 2016-11-01 15:06:34 +0000
+Cannot render console from 66.220.146.229! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as */*
+  Rendered static/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 61ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 66.220.146.225 at 2016-11-01 15:06:34 +0000
+Cannot render console from 66.220.146.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 66.220.146.230 at 2016-11-01 15:06:34 +0000
+Cannot render console from 66.220.146.230! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 66.220.146.230 at 2016-11-01 15:06:34 +0000
+Cannot render console from 66.220.146.230! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 66.220.146.225 at 2016-11-01 15:06:34 +0000
+Cannot render console from 66.220.146.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 15:28:24 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 15:55:17 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 270ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 15:59:29 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 261ms (Views: 245.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:00:14 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:22:54 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:23:06 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 24.63.8.186 at 2016-11-01 16:23:07 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 24.63.8.186 at 2016-11-01 16:23:07 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 24.63.8.186 at 2016-11-01 16:23:07 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 24.63.8.186 at 2016-11-01 16:23:07 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 24.63.8.186 at 2016-11-01 16:23:08 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:24:00 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:30:20 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:30:23 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.63.8.186 at 2016-11-01 16:30:29 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 24.63.8.186 at 2016-11-01 16:31:42 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook" for 24.63.8.186 at 2016-11-01 16:31:43 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/auth/facebook/callback?code=AQBaX2P97z3wgKGDa3QsRdghiwOHFOBtE_TMObHzygOT01GIW7hHxu5f-XrcZ-Q37WkScjRise5jb-T8WbGv8xBQTkgSS-WIt5rmvlknsF6sXl5QXWozc2lK7SqBgrsBXUeQyX227V_lwQ-Ihh8c1COCJTAFGaxE0YvWTGKoXzGlDJO-1QzIFzF0xId9OQY2hjyMCqohX7PY3OasMdoZHeK2zD7fHXgibMmbupn_ibF6mwxRF3YwVQ-kZdaRevYVp6W6ACHOoScn7P2RKujwo9IcMWHrb7H1_PJGL5D-ExAmNJNSN2kO0Ru0TnQQZwefs_132tylwiltbnrf_bmVkt9_f6RlF94iDSX85RaT27OSjA&state=aa80d0d0365a7a96f9a0aadacc8a40f7616687171652741b" for 24.63.8.186 at 2016-11-01 16:31:50 +0000
+Cannot render console from 24.63.8.186! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBaX2P97z3wgKGDa3QsRdghiwOHFOBtE_TMObHzygOT01GIW7hHxu5f-XrcZ-Q37WkScjRise5jb-T8WbGv8xBQTkgSS-WIt5rmvlknsF6sXl5QXWozc2lK7SqBgrsBXUeQyX227V_lwQ-Ihh8c1COCJTAFGaxE0YvWTGKoXzGlDJO-1QzIFzF0xId9OQY2hjyMCqohX7PY3OasMdoZHeK2zD7fHXgibMmbupn_ibF6mwxRF3YwVQ-kZdaRevYVp6W6ACHOoScn7P2RKujwo9IcMWHrb7H1_PJGL5D-ExAmNJNSN2kO0Ru0TnQQZwefs_132tylwiltbnrf_bmVkt9_f6RlF94iDSX85RaT27OSjA", "state"=>"aa80d0d0365a7a96f9a0aadacc8a40f7616687171652741b"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::User):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.9ms)
+  [1m[36m (8.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (19.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20161101163353)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20161101163353"]]
+  [1m[35m (10.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (3.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "daddy"], ["created_at", "2016-11-01 16:35:44.969684"], ["updated_at", "2016-11-01 16:35:44.969684"]]
+  [1m[35m (9.3ms)[0m  commit transaction
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
