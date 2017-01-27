@@ -1,0 +1,190 @@
+
+
+Started GET "/" for ::1 at 2017-01-26 21:17:27 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 29ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:17:34 -0500
+
+ActionController::RoutingError (No route matches [GET] "/static/home"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.7ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.0ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (85.8ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (177.9ms)
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:22:25 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 441ms (Views: 440.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:22:29 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:22:29 -0500
+
+
+Started GET "/" for ::1 at 2017-01-26 21:24:06 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 38ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:24:13 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 350ms (Views: 349.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:24:17 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:24:17 -0500
+
+
+Started GET "/" for ::1 at 2017-01-26 21:30:45 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 24ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:30:53 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 366ms (Views: 364.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:30:55 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:30:55 -0500
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:37:45 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 319ms (Views: 308.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-01-26 21:37:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-01-26 21:37:46 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-01-26 21:37:46 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-01-26 21:37:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-01-26 21:37:46 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:37:50 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:37:50 -0500
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:41:56 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 311ms (Views: 300.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:41:59 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-01-26 21:41:59 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQBwM1EO-kMRZWs-7nyoP247fR0bIIZGQONKq8dC-1EqrgBBU1OfsUBt9A4OssWbLYPLrSoRSNiHTnqy_ktO61zrUihbOiEGPLWvcoLPOKy5Ol1XBw4s2kJaz3t8_yjycVxURTBUNERzZ6_qFxSd4boiEmEZT1JyU4EeX42_attt_wiNgA0-_aLxBpcObqNrTY2Vw4mN50bvIdeSenC9wMtTmOgpqjB9eDn1djHd9ukz88pLg6m7s5RdsJm4lYnpfUPOEqzPdOFj6Xd-2iV1WataZ4Rh4MBkFiHPR2uQvse7-KVw7PeLBJ-8jAmcPSOzMQE&state=f2148643d0a4248e8846fb7cd13ad98caa8ee28c3263bc33" for ::1 at 2017-01-26 21:42:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/auth/facebook/callback"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/ajfriedl/.rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.1ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (127.1ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ajfriedl/.gem/ruby/2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (164.5ms)
+
+
+Started GET "/static/home" for ::1 at 2017-01-26 21:44:09 -0500
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
