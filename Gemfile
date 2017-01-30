@@ -39,7 +39,13 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
+
+  gem 'dotenv-rails', require: 'dotenv/rails-now'
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
 gem 'web-console', '~> 2.0', group: :development
+
+gem 'omniauth'
+gem 'omniauth-facebook'
+
