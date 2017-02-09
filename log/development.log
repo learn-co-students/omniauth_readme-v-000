@@ -1,0 +1,44 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-07 16:36:22 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 117ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-07 16:39:55 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1184ms (Views: 1162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-07 16:39:59 -0500
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-07 16:39:59 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQD1C1MX2e66aOAh4FD6fWiyw8L8LKUNSZM15OF77tlKxS6z57R6OMGv_h-aam9jQvqgs-GQ50mtJytJ5sdEPft2HdvyqszWBo0tcLUS6FfffxmZTidlT_eyuGCVNMmHDL-_ZqHaFtvnNSWTfxniXFuJvnwuek9bMAxGai7g3XqPg8UoA0L1hUqVZkJpYLY5yeNhG0vA5oNpgYfdulBuLrJ6FuEfZT5rlym7GR0_srYJOSnnhY7cZsMK3WIiuB_nIoWSX-oo6UT1gNJ1Az-WQV9McTcYogX06Ma9RysFioJ8CuTspPriGgvWvRSFDCfihA1jhkRaQX8iN50z1quVn74TlQVbEQy9XT_4CCooEYUZNA&state=e87b7664fc263a0e8c190874520d9f3f2ca26776b7bcb359" for 127.0.0.1 at 2017-02-07 16:39:59 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQD1C1MX2e66aOAh4FD6fWiyw8L8LKUNSZM15OF77tlKxS6z57R6OMGv_h-aam9jQvqgs-GQ50mtJytJ5sdEPft2HdvyqszWBo0tcLUS6FfffxmZTidlT_eyuGCVNMmHDL-_ZqHaFtvnNSWTfxniXFuJvnwuek9bMAxGai7g3XqPg8UoA0L1hUqVZkJpYLY5yeNhG0vA5oNpgYfdulBuLrJ6FuEfZT5rlym7GR0_srYJOSnnhY7cZsMK3WIiuB_nIoWSX-oo6UT1gNJ1Az-WQV9McTcYogX06Ma9RysFioJ8CuTspPriGgvWvRSFDCfihA1jhkRaQX8iN50z1quVn74TlQVbEQy9XT_4CCooEYUZNA", "state"=>"e87b7664fc263a0e8c190874520d9f3f2ca26776b7bcb359"}
+  Rendered sessions/create.html.erb within layouts/application (24.1ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__360875981810989116_69996610189920'
+
+
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.6ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.0ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.4ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/dkennell/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (149.5ms)
