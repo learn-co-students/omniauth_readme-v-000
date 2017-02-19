@@ -1,0 +1,649 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-19 11:21:02 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 62ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static/home" for 127.0.0.1 at 2017-02-19 11:21:13 -0600
+
+ActionController::RoutingError (No route matches [GET] "/static/home"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (218.9ms)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: :static/home` to `controller: :static/home`. (called from block in <top (required)> at /home/phalangical/Documents/Learn/labs/rails/omniauth_readme-v-000/config/routes.rb:2)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: :/static/home` to `controller: :/static/home`. (called from block in <top (required)> at /home/phalangical/Documents/Learn/labs/rails/omniauth_readme-v-000/config/routes.rb:2)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 290ms (Views: 283.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-02-19 11:23:39 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:23:41 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:23:41 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQB7VFVVLpPzLX_CVsl6Fklqo81JzujE7b0EoSmNg2RVmluGRp6UuD-cbnEWyDjfXp63slfXumic7g8cpycCfzl_GzO9ZOQFEBkO5D43_X8kjCexCjRyWfuuCyVrWHkweWdMt_7E4B3f2A5aS-R9igeC1a16W6AXEjuYNm8PyOojjCPJG_HgD_qPHw5R6TOzw8NhlQu12b0HfsMmT-_aOegvhK1ntnLVxlu21uRThVz182yvIzeltueU1rrQMiRCrxZt1b4DO_MbJyKaiKTgBoRM-9g127xXgWgL6ZdmVOmjEO8dQrLbPzf2A5SqHH7ZVmmcsJ4UzYh4LkbbBKxhKYfjDVhW04g0uzir8qlCbsRwt_FGq6IuJGvAo-J0oc1UHaQ&state=49ba1d329f18880010ba2f762aa99c7884ae0e6e3f01debc" for 127.0.0.1 at 2017-02-19 11:23:46 -0600
+
+ActionController::RoutingError (uninitialized constant SessionsController):
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.2) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:407:in `call_app!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:361:in `callback_phase'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:67:in `block in callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:131:in `with_authorization_code!'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:66:in `callback_phase'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:230:in `callback_call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+  omniauth (1.6.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.9ms)
+
+
+Started GET "/auth/facebook/callback?code=AQB7VFVVLpPzLX_CVsl6Fklqo81JzujE7b0EoSmNg2RVmluGRp6UuD-cbnEWyDjfXp63slfXumic7g8cpycCfzl_GzO9ZOQFEBkO5D43_X8kjCexCjRyWfuuCyVrWHkweWdMt_7E4B3f2A5aS-R9igeC1a16W6AXEjuYNm8PyOojjCPJG_HgD_qPHw5R6TOzw8NhlQu12b0HfsMmT-_aOegvhK1ntnLVxlu21uRThVz182yvIzeltueU1rrQMiRCrxZt1b4DO_MbJyKaiKTgBoRM-9g127xXgWgL6ZdmVOmjEO8dQrLbPzf2A5SqHH7ZVmmcsJ4UzYh4LkbbBKxhKYfjDVhW04g0uzir8qlCbsRwt_FGq6IuJGvAo-J0oc1UHaQ&state=49ba1d329f18880010ba2f762aa99c7884ae0e6e3f01debc" for 127.0.0.1 at 2017-02-19 11:24:50 -0600
+
+OAuth2::Error ({"message"=>"This authorization code has been used.", "type"=>"OAuthException", "code"=>100, "fbtrace_id"=>"G4JC198Z96M"}: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"G4JC198Z96M"}}):
+  oauth2 (1.3.0) lib/oauth2/client.rb:119:in `request'
+  oauth2 (1.3.0) lib/oauth2/client.rb:146:in `get_token'
+  oauth2 (1.3.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:110:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:67:in `block in callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:131:in `with_authorization_code!'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:66:in `callback_phase'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:230:in `callback_call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+  omniauth (1.6.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (32.4ms)
+
+
+Started GET "/auth/facebook/callback?code=AQB7VFVVLpPzLX_CVsl6Fklqo81JzujE7b0EoSmNg2RVmluGRp6UuD-cbnEWyDjfXp63slfXumic7g8cpycCfzl_GzO9ZOQFEBkO5D43_X8kjCexCjRyWfuuCyVrWHkweWdMt_7E4B3f2A5aS-R9igeC1a16W6AXEjuYNm8PyOojjCPJG_HgD_qPHw5R6TOzw8NhlQu12b0HfsMmT-_aOegvhK1ntnLVxlu21uRThVz182yvIzeltueU1rrQMiRCrxZt1b4DO_MbJyKaiKTgBoRM-9g127xXgWgL6ZdmVOmjEO8dQrLbPzf2A5SqHH7ZVmmcsJ4UzYh4LkbbBKxhKYfjDVhW04g0uzir8qlCbsRwt_FGq6IuJGvAo-J0oc1UHaQ&state=49ba1d329f18880010ba2f762aa99c7884ae0e6e3f01debc" for 127.0.0.1 at 2017-02-19 11:25:37 -0600
+
+OAuth2::Error ({"message"=>"This authorization code has been used.", "type"=>"OAuthException", "code"=>100, "fbtrace_id"=>"B697CNLV+K8"}: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"B697CNLV+K8"}}):
+  oauth2 (1.3.0) lib/oauth2/client.rb:119:in `request'
+  oauth2 (1.3.0) lib/oauth2/client.rb:146:in `get_token'
+  oauth2 (1.3.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:110:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:67:in `block in callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:131:in `with_authorization_code!'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:66:in `callback_phase'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:230:in `callback_call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+  omniauth (1.6.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-19 11:26:14 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:26:15 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:26:16 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQDNOmomTnAkiHEc85fQ59z3C0n8Oc1ZXbVmTT4BUqzaOMHaqlcFwf5wgHiJWlgq_2l_6sWouOpo9fpcwYM7uHnwIb1uEFQcA3sCy500KzPzQqAwvVKcgjwBWl-IfYlKaQX32GHV128PAZ0Ki7QSzRi22Y7JOnTqT5_wpQxjoyeHQIvxDXVprstj5H50Mm-UpDETPxXh65kdYzRYZRn0lcfj8lVJ7luJYvnVXLvmM9AO4SAdlo9DpeL94Rmf7Gt8QByBV7E21n9etFL1EUyLqk1Edn-sV31qNFUJpFznQJTlIW6oi-gXPyEWxUDBZtJ3bUWGZOOXw2N01R0LAXE_1iBbEgpLeosogyNuSFK_JwRNBx1UKYhdNoq00SjqmcNdD4Q&state=8c6e8dfd2ff36e2eb51e0f5da9d303b02032960e55e2975f" for 127.0.0.1 at 2017-02-19 11:26:16 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDNOmomTnAkiHEc85fQ59z3C0n8Oc1ZXbVmTT4BUqzaOMHaqlcFwf5wgHiJWlgq_2l_6sWouOpo9fpcwYM7uHnwIb1uEFQcA3sCy500KzPzQqAwvVKcgjwBWl-IfYlKaQX32GHV128PAZ0Ki7QSzRi22Y7JOnTqT5_wpQxjoyeHQIvxDXVprstj5H50Mm-UpDETPxXh65kdYzRYZRn0lcfj8lVJ7luJYvnVXLvmM9AO4SAdlo9DpeL94Rmf7Gt8QByBV7E21n9etFL1EUyLqk1Edn-sV31qNFUJpFznQJTlIW6oi-gXPyEWxUDBZtJ3bUWGZOOXw2N01R0LAXE_1iBbEgpLeosogyNuSFK_JwRNBx1UKYhdNoq00SjqmcNdD4Q", "state"=>"8c6e8dfd2ff36e2eb51e0f5da9d303b02032960e55e2975f"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant SessionsController::User):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-19 11:26:57 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:26:58 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:26:59 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQDBRVjYPkLyCk3vFBRyn0IWNhE8R36wFqRDxX35H4gwAjwG4Ll5F-aQIB3hYK2T4qkuxqYZEsbEu9Q9xOxcrWicZEFKGO7wVtVr-V57g2xo5dJhWLz13a3GmpmKfGvFigB9ebmo2W16FKbX4gj9yiPgcAUDKDcDCweuylnII-_enFOlJ3oo--xbXM6k5JZYQvwaSQZLzi2Svf0nnb7tQ9H0HzdJHKE8RsbBAIaS1SGQBiBVl4TFIsItPnzO0miMwsrfMmEqHzYrcFsBLJgLaNxA2vZc0XwRVBATZMhkzF3I2c3x8i3i_3PMtS1gmogIHwxHfVw_iszUUhDHV5wZd-Opy03axIQFVACWRyXEJ4sAPHPs8l-qXZSorjogxWpLWfc&state=2dada620ab64c122ab9fc68aa311c9d81d7f71828a51becd" for 127.0.0.1 at 2017-02-19 11:26:59 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDBRVjYPkLyCk3vFBRyn0IWNhE8R36wFqRDxX35H4gwAjwG4Ll5F-aQIB3hYK2T4qkuxqYZEsbEu9Q9xOxcrWicZEFKGO7wVtVr-V57g2xo5dJhWLz13a3GmpmKfGvFigB9ebmo2W16FKbX4gj9yiPgcAUDKDcDCweuylnII-_enFOlJ3oo--xbXM6k5JZYQvwaSQZLzi2Svf0nnb7tQ9H0HzdJHKE8RsbBAIaS1SGQBiBVl4TFIsItPnzO0miMwsrfMmEqHzYrcFsBLJgLaNxA2vZc0XwRVBATZMhkzF3I2c3x8i3i_3PMtS1gmogIHwxHfVw_iszUUhDHV5wZd-Opy03axIQFVACWRyXEJ4sAPHPs8l-qXZSorjogxWpLWfc", "state"=>"2dada620ab64c122ab9fc68aa311c9d81d7f71828a51becd"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `based' for ActiveRecord:Module):
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:27:11 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:27:11 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQC5hZaZ1lMBoF0er6po_gLoB1f49N9hSuhOhiRy_xiWweLqFHYipICC6an4itGThAp3h3vj3cGIFJBSlfw8eJ5t-7gIFIVFjdwS31pNh2ah1ppGGaoMe1Y-DDWriNdGv6DD4_rk-ytGO7E1YzVrjgVseiUSoQG-ldLJ5XxoowWSTSZRX0DOJHEynzJnzx14bhUCYEPo5G7tivvo9xOfNJga3-F67qzR-EYx6fepr5bA0xUlioNRFP73EdQu2ZqI5lByyLeZ5bssboMkqtFQTG5dsz6h6FWvIZzMvEUTQaqtIXeUIJdjOy2t_QI4w8z4lHi5ZdVjxg50WqblNEXF7sycjj7b2UeGTnRg8VC77cNgULiTgnNDuRgf6yK6wqNnWY0&state=c6e5c42732c9e252e8e82af2760e6a07fc7123477cc069f8" for 127.0.0.1 at 2017-02-19 11:27:11 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC5hZaZ1lMBoF0er6po_gLoB1f49N9hSuhOhiRy_xiWweLqFHYipICC6an4itGThAp3h3vj3cGIFJBSlfw8eJ5t-7gIFIVFjdwS31pNh2ah1ppGGaoMe1Y-DDWriNdGv6DD4_rk-ytGO7E1YzVrjgVseiUSoQG-ldLJ5XxoowWSTSZRX0DOJHEynzJnzx14bhUCYEPo5G7tivvo9xOfNJga3-F67qzR-EYx6fepr5bA0xUlioNRFP73EdQu2ZqI5lByyLeZ5bssboMkqtFQTG5dsz6h6FWvIZzMvEUTQaqtIXeUIJdjOy2t_QI4w8z4lHi5ZdVjxg50WqblNEXF7sycjj7b2UeGTnRg8VC77cNgULiTgnNDuRgf6yK6wqNnWY0", "state"=>"c6e5c42732c9e252e8e82af2760e6a07fc7123477cc069f8"}
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 17.1ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/sessions_controller.rb:3:in `create'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.6ms)
+  [1m[36m (85.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (74.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170219172859)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "uid" integer(8)) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170219172859"]]
+  [1m[35m (79.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:29:33 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:29:33 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQAxgWGZZM00pZylMpA7OqM0TP3BbL993f454nlMiwGZsoGyPN39BxR5VNuyLUnxBjCfmqWW4TPh-XuIAzV6TwS0BDWTIwj7zcoLMd0dPwcDEJX9hcUpGftExZQcZy1cIysDBkHds9m2zrRibJC3fUijpH3QJ0UcnmZR4X9JthMwm9AGT2HBgwvNsoX7yGvimUaMkRYgCXkhwZqwppwad4pYFTMzWjMPfNwOBb1gsPWBs99VlRpjagEJTw2NFfCIJHL0Yb-VrpVnj61cY8XDp2wiRd_sPhK4H-ccJJEoobvKMXgw2sNKy6CgmpdEshGlj4b7XO7tV9X2gS2h1GlOTLc_eR4sMbsrww7CrAzYSK2hPBvSdDB7ogfwEpCwwTlcqB0&state=2f4ebdbbe375ea91aaa0a1a815f12d451c6e451d73693d24" for 127.0.0.1 at 2017-02-19 11:29:33 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAxgWGZZM00pZylMpA7OqM0TP3BbL993f454nlMiwGZsoGyPN39BxR5VNuyLUnxBjCfmqWW4TPh-XuIAzV6TwS0BDWTIwj7zcoLMd0dPwcDEJX9hcUpGftExZQcZy1cIysDBkHds9m2zrRibJC3fUijpH3QJ0UcnmZR4X9JthMwm9AGT2HBgwvNsoX7yGvimUaMkRYgCXkhwZqwppwad4pYFTMzWjMPfNwOBb1gsPWBs99VlRpjagEJTw2NFfCIJHL0Yb-VrpVnj61cY8XDp2wiRd_sPhK4H-ccJJEoobvKMXgw2sNKy6CgmpdEshGlj4b7XO7tV9X2gS2h1GlOTLc_eR4sMbsrww7CrAzYSK2hPBvSdDB7ogfwEpCwwTlcqB0", "state"=>"2f4ebdbbe375ea91aaa0a1a815f12d451c6e451d73693d24"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10158210373375075]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("uid", "name", "email") VALUES (?, ?, ?)  [["uid", 10158210373375075], ["name", "Scott Young"], ["email", "young.scottw@gmail.com"]]
+  [1m[36m (80.7ms)[0m  [1mcommit transaction[0m
+  Rendered sessions/create.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 81.6ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__3958166598338412318_70098938402480'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (27.8ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:31:45 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:31:46 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQC4vl2F7bV0-Z5H2YS-uNU8EGUbHDiE7OcBF7Fs0QVjns9sjpzJJx9xh2AnAKcBgs18FJKHd42FfQeb6q8x6mi5yaZRT5wT8jJs63OdskD8yLjY0AMGXG8_vc0MR9dLjhgxl__Y5c0HVFtKwgHDqUh8nttK0zY42eUAbC7Toc-y_4WbkZA_ZVriBJqjImcR7PJaVjM3IKCMPUgt6fo2ScuOOa9Ycty6tffqEEXs00VucKW1zwgnC-XYoEGqDZz5jqAFdIsVf3RR-FY_ppbIepR17ZZlw5y26SlxGa_4FsP4jDXuQ0UW8NwiSfu61D8UGVtY-vHpQv6VAm-dJP29YGskxyv5QACll1NxLSQkq0awNmOW9hT7rq4xMd4IGtH9LK4&state=77eb81d5339b16337931043652425be454b47b68ded27d58" for 127.0.0.1 at 2017-02-19 11:31:46 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC4vl2F7bV0-Z5H2YS-uNU8EGUbHDiE7OcBF7Fs0QVjns9sjpzJJx9xh2AnAKcBgs18FJKHd42FfQeb6q8x6mi5yaZRT5wT8jJs63OdskD8yLjY0AMGXG8_vc0MR9dLjhgxl__Y5c0HVFtKwgHDqUh8nttK0zY42eUAbC7Toc-y_4WbkZA_ZVriBJqjImcR7PJaVjM3IKCMPUgt6fo2ScuOOa9Ycty6tffqEEXs00VucKW1zwgnC-XYoEGqDZz5jqAFdIsVf3RR-FY_ppbIepR17ZZlw5y26SlxGa_4FsP4jDXuQ0UW8NwiSfu61D8UGVtY-vHpQv6VAm-dJP29YGskxyv5QACll1NxLSQkq0awNmOW9hT7rq4xMd4IGtH9LK4", "state"=>"77eb81d5339b16337931043652425be454b47b68ded27d58"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10158210373375075]]
+  Rendered sessions/create.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <!--<pre><%= JSON.pretty_generate(@auth) %></pre>-->
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__3958166598338412318_70098900287040'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.6ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.6ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:32:15 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:32:15 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQC9j2JsOG2cFWhpZjuDEyCxkh3Y6qeR1Qwn1wpyrdLkM3cXYKBoG_9k59Jq11Mv0BTucpIwf9UpUEx4aj1l6CnIT1L5RcOsLtdPCtlz9bXgnDSKhJIma4N7nCaawz3wXUilPz0Fr2SRovY-_cciUmyA92J3yO2Jhik9KEAPItWuBCDWH087KqeaMpt7EZl6k6s1ZN_u9UCt09BYWikgAmZXBfBWgXUK2OTkMFbWBe9yL5isqxXzkwj-Mb5qCC-Kd22T3oaIsIu-cSTRkuK8bTPxzawO81HYjswZ7l6ToxVdfXCIWAMhNW0QbEbArRdes1rpR3Z3vB6kte8BoPKK4oAq3SQdiyyFyZtVWj_o-qaqzrCWAZrkLr6oohyjymrrDv0&state=74495689f268523bcf8ec17bc572d122da84d89b831bf8d1" for 127.0.0.1 at 2017-02-19 11:32:15 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC9j2JsOG2cFWhpZjuDEyCxkh3Y6qeR1Qwn1wpyrdLkM3cXYKBoG_9k59Jq11Mv0BTucpIwf9UpUEx4aj1l6CnIT1L5RcOsLtdPCtlz9bXgnDSKhJIma4N7nCaawz3wXUilPz0Fr2SRovY-_cciUmyA92J3yO2Jhik9KEAPItWuBCDWH087KqeaMpt7EZl6k6s1ZN_u9UCt09BYWikgAmZXBfBWgXUK2OTkMFbWBe9yL5isqxXzkwj-Mb5qCC-Kd22T3oaIsIu-cSTRkuK8bTPxzawO81HYjswZ7l6ToxVdfXCIWAMhNW0QbEbArRdes1rpR3Z3vB6kte8BoPKK4oAq3SQdiyyFyZtVWj_o-qaqzrCWAZrkLr6oohyjymrrDv0", "state"=>"74495689f268523bcf8ec17bc572d122da84d89b831bf8d1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1[0m  [["uid", 10158210373375075]]
+  Rendered sessions/create.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: 
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:2:in `_app_views_sessions_create_html_erb__3958166598338412318_70098904453500'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.3ms)
+
+
+Started GET "/auth/facebook/callback?code=AQC9j2JsOG2cFWhpZjuDEyCxkh3Y6qeR1Qwn1wpyrdLkM3cXYKBoG_9k59Jq11Mv0BTucpIwf9UpUEx4aj1l6CnIT1L5RcOsLtdPCtlz9bXgnDSKhJIma4N7nCaawz3wXUilPz0Fr2SRovY-_cciUmyA92J3yO2Jhik9KEAPItWuBCDWH087KqeaMpt7EZl6k6s1ZN_u9UCt09BYWikgAmZXBfBWgXUK2OTkMFbWBe9yL5isqxXzkwj-Mb5qCC-Kd22T3oaIsIu-cSTRkuK8bTPxzawO81HYjswZ7l6ToxVdfXCIWAMhNW0QbEbArRdes1rpR3Z3vB6kte8BoPKK4oAq3SQdiyyFyZtVWj_o-qaqzrCWAZrkLr6oohyjymrrDv0&state=74495689f268523bcf8ec17bc572d122da84d89b831bf8d1" for 127.0.0.1 at 2017-02-19 11:32:35 -0600
+
+OAuth2::Error ({"message"=>"This authorization code has been used.", "type"=>"OAuthException", "code"=>100, "fbtrace_id"=>"GZnuqVBsMPw"}: 
+{"error":{"message":"This authorization code has been used.","type":"OAuthException","code":100,"fbtrace_id":"GZnuqVBsMPw"}}):
+  oauth2 (1.3.0) lib/oauth2/client.rb:119:in `request'
+  oauth2 (1.3.0) lib/oauth2/client.rb:146:in `get_token'
+  oauth2 (1.3.0) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:110:in `build_access_token'
+  omniauth-oauth2 (1.4.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:67:in `block in callback_phase'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:131:in `with_authorization_code!'
+  omniauth-facebook (4.0.0) lib/omniauth/strategies/facebook.rb:66:in `callback_phase'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:230:in `callback_call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+  omniauth (1.6.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/phalangical/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-19 11:32:51 -0600
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 136ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:32:53 -0600
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2017-02-19 11:32:53 -0600
+
+
+Started GET "/auth/facebook/callback?code=AQC-PnOdElVg514PSBCpgWChADcya2AOQvUujBNxB6YKpGtNHF1y0oKBi-uPfuVv56O4PhlRp-bPyrgpLp0IqJEpJTtC7In5HeGjE_KsfCH1pdtrMziddPWy3f-7DGgBdYCgwBGI4ziG8kP4OehDWDD_WaWNz8KZH2pWNZXEIlCvQu38zoUOqWTz9GqIVpIJ_T2ATfyoVz4F__De9q7d6WxXGz1X0gQMTlxUmf1LYcc0FZrP3vRjovE6XSCAjaTs5n0JpEq4ELc5893u15KZv7aGx2OzdK5rOVBPZGvzlNLEB0vBH_i9I9NRfVzhqE4fSAJSHV_arIoS9xY7pcwlYhPD7DlqwRp6h0YQBtySj8XkoLPSd5xGY1RDa16wGovrfY4&state=4635347b348e88d2292539587ecbf8c5f8b133fd058f4d3e" for 127.0.0.1 at 2017-02-19 11:32:53 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC-PnOdElVg514PSBCpgWChADcya2AOQvUujBNxB6YKpGtNHF1y0oKBi-uPfuVv56O4PhlRp-bPyrgpLp0IqJEpJTtC7In5HeGjE_KsfCH1pdtrMziddPWy3f-7DGgBdYCgwBGI4ziG8kP4OehDWDD_WaWNz8KZH2pWNZXEIlCvQu38zoUOqWTz9GqIVpIJ_T2ATfyoVz4F__De9q7d6WxXGz1X0gQMTlxUmf1LYcc0FZrP3vRjovE6XSCAjaTs5n0JpEq4ELc5893u15KZv7aGx2OzdK5rOVBPZGvzlNLEB0vBH_i9I9NRfVzhqE4fSAJSHV_arIoS9xY7pcwlYhPD7DlqwRp6h0YQBtySj8XkoLPSd5xGY1RDa16wGovrfY4", "state"=>"4635347b348e88d2292539587ecbf8c5f8b133fd058f4d3e"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10158210373375075]]
+  Rendered sessions/create.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__3958166598338412318_70098902018540'
+
+
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/phalangical/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.5ms)
