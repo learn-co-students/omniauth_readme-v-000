@@ -1,0 +1,605 @@
+
+
+Started GET "/" for ::1 at 2017-03-01 11:10:50 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 23ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for ::1 at 2017-03-01 11:10:55 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.8ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.1ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (154.8ms)
+
+
+Started GET "/home" for ::1 at 2017-03-01 11:12:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.8ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (124.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (145.9ms)
+
+
+Started GET "/" for ::1 at 2017-03-01 11:12:46 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 411ms (Views: 410.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-01 11:12:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-01 11:12:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-01 11:12:47 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-03-01 11:12:47 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:12:49 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:12:49 -0500
+
+
+Started GET "/" for ::1 at 2017-03-01 11:13:42 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:13:44 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:13:44 -0500
+
+
+Started GET "/" for ::1 at 2017-03-01 11:17:11 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:17:12 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:17:12 -0500
+
+
+Started GET "/" for ::1 at 2017-03-01 11:28:20 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:28:22 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:28:22 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:29:20 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:29:21 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:30:42 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:30:42 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:35:15 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:35:16 -0500
+
+
+Started GET "/" for ::1 at 2017-03-01 11:36:40 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 287ms (Views: 275.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:36:41 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:36:41 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQC0qoxErARj3w9HLFjRjdAzhjYbFvoArxiedDPnqH08Mps-ye8R95EZh2cbSjCo9oqArmbZZMicdPlw-4mZZWKEFZV04cFDc4b3hBJ2rtwLaYI1GaAW9PaMpP8aVlVAT5Q67MBuTepHeyILjJMmZPvlNrzml1NGTCWHdkMGQ40PpKw3KRzWmKuMHlQp7s3Ub2aGszt0brUYHzazhVfnvf7v4Cx8LwPE4FpKXxMyiWAr_1C9tymvfTLLcODt3XOlZdtXBC3SD0_4S6dO2tkeVH_rdOcuIIjY28sjeOWjAtTpOFM11YuCqKL1jb_-l9NPKHw&state=37210341ef0c6c2307e565d078fc6cec2f19db32cc694f29" for ::1 at 2017-03-01 11:36:47 -0500
+
+OAuth2::Error (: 
+{"error":{"message":"Code was invalid or expired. ","type":"OAuthException","code":100,"fbtrace_id":"EhYVLgq\/zdZ"}}):
+  oauth2 (0.8.1) lib/oauth2/client.rb:108:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  omniauth-facebook (1.6.0) lib/omniauth/strategies/facebook.rb:145:in `block in build_access_token'
+  omniauth-facebook (1.6.0) lib/omniauth/strategies/facebook.rb:171:in `with_authorization_code!'
+  omniauth-facebook (1.6.0) lib/omniauth/strategies/facebook.rb:145:in `build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth-facebook (1.6.0) lib/omniauth/strategies/facebook.rb:71:in `callback_phase'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:230:in `callback_call'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:187:in `call!'
+  omniauth (1.6.1) lib/omniauth/strategy.rb:167:in `call'
+  omniauth (1.6.1) lib/omniauth/builder.rb:63:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.2) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (85.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (176.1ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:38:19 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 11:38:19 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQDKXrphWXirO0Hadxil4aofYr7jVEHP4SesYNl9SBxABqIlCj-yP1bLENUgaPi3v-N1RdmiLy9VqNY77TlHMCQBYyxg8axAXeUyGj2nuuvBx87QVGVnDjFoasyuKWja-6Ebgxcrjhzk_vVHzbPhMgUFXVT5moQdS0fnKjL5Ty_Um81nTFAkKxH7Rq_JnrsRricfMcZeLe3m0RBkpSuHCcg8h3h5ennJ7bhvZQcTaCs7N6LTXjuJZdCTsji3lFciTZspg65Rz5XvxWkwQX8e43gMP_9NGMNeoJyu4A8nW29IeCnrWZNwInvhGnMC5_nQvFM&state=fcedcd4103af50a7216d0e9f7e2e17e7c53cc0359b537f33" for ::1 at 2017-03-01 11:38:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/auth/facebook/callback"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:138:in `service'
+  webrick (1.3.1) lib/webrick/httpserver.rb:94:in `run'
+  webrick (1.3.1) lib/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.1ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (65.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (142.9ms)
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170301172620)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "uid" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170301172620"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:29:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:29:50 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQCBRTzND_T2k3j_d_t6LjHpeOcXW9_mS1ObSeqcpxsYUV3CIg3ZB5zlW-xK13LzGp19dhuefh2uyxTN7KHtaub-83gRmX71Hthy4hrUfM_-iqiYKKt2LMxP7MmXGXV2Zuy0TSVCOyo0dIOErJaxYrcbIYkLqQHlQ-6F7TfaRHX74IwH_IGevP4X2ZTVGU5uDgMYVgBLd76Ms5lT8EZ2BkIZA07X3HOwnwAtghLMHwg2E7wjRZms5ewciSyvpzPdH0pft6zgP1Y8xX4GxMZlvboWwvBH-RLsw6suqttY9YnhYutSUHjtjV37BjZyauykUNA&state=8a8d288793661198a354cab8f8319faaa318c31558c7fd1f" for ::1 at 2017-03-01 12:29:50 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCBRTzND_T2k3j_d_t6LjHpeOcXW9_mS1ObSeqcpxsYUV3CIg3ZB5zlW-xK13LzGp19dhuefh2uyxTN7KHtaub-83gRmX71Hthy4hrUfM_-iqiYKKt2LMxP7MmXGXV2Zuy0TSVCOyo0dIOErJaxYrcbIYkLqQHlQ-6F7TfaRHX74IwH_IGevP4X2ZTVGU5uDgMYVgBLd76Ms5lT8EZ2BkIZA07X3HOwnwAtghLMHwg2E7wjRZms5ewciSyvpzPdH0pft6zgP1Y8xX4GxMZlvboWwvBH-RLsw6suqttY9YnhYutSUHjtjV37BjZyauykUNA", "state"=>"8a8d288793661198a354cab8f8319faaa318c31558c7fd1f"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (167.2ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:30:22 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:30:22 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQCBoYxNhjyhxqtU2a_wtA6QEWJu0wYVIYsq7Fk12yRGeq21ivFfeG_3jsd5gyls7pGxmLTOY1MMW26f58vqLknH1gdsEgr-GbxaKqpkFmnpWxlMw1WUUNG_xzOg5uy5Yxbm_6aknHL9_890y-mBb8v68zMNHYC97szAb-xcc0C4rJDDo6C5Cg1aYiyX66GsZCog8EoJcrv8QWsXnza3EBt_3Lq0EfEiSzbipTmcrbGGhAzOvBMzBBWpA8VA9VkbuFX3J6xPjW83I4EVRGB7_t2RRtt8PMHlR9D1pdffH4Rb8C_NUwEE-67FT8ICaOYNAvY&state=cc259569a3910e4b91b4560480a1b9dfe08ad1729e69833a" for ::1 at 2017-03-01 12:30:22 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCBoYxNhjyhxqtU2a_wtA6QEWJu0wYVIYsq7Fk12yRGeq21ivFfeG_3jsd5gyls7pGxmLTOY1MMW26f58vqLknH1gdsEgr-GbxaKqpkFmnpWxlMw1WUUNG_xzOg5uy5Yxbm_6aknHL9_890y-mBb8v68zMNHYC97szAb-xcc0C4rJDDo6C5Cg1aYiyX66GsZCog8EoJcrv8QWsXnza3EBt_3Lq0EfEiSzbipTmcrbGGhAzOvBMzBBWpA8VA9VkbuFX3J6xPjW83I4EVRGB7_t2RRtt8PMHlR9D1pdffH4Rb8C_NUwEE-67FT8ICaOYNAvY", "state"=>"cc259569a3910e4b91b4560480a1b9dfe08ad1729e69833a"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007fc2ee325a10>
+Did you mean?  try):
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:30:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:30:50 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQDQaEjGQ-N8udtSAbkXHmuJhwA4Pisjp0pCdOwywXnO1YuKtUpoC4xgJt452Uj8O-1SG2wNKQ9NcUiP4CatFDIG2fMMBSlLh4W6omR56FWOAjtxNpMf-6UE8bgo9QuF5R3MGrsQxR0IYDylh6KYmkxtQjN6XGgBC4uYOEGusT0Lhq9fCw_mw_0sFg07jCUu33efBLwras2818T8_S-sRC5_ZtMYYy_5FspM-KLlimsQUGATT3qJ0hDW2GV-ZLtYO80OCSjPy-ywYcbhvkwtyRHQwgFnVAD4MZKyNbvY-Zivbkl2GtdclhnmBjoPXeZJwnE&state=701c61790a0ffd051b034adf18acd3385ffc396a39c20cf2" for ::1 at 2017-03-01 12:30:50 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDQaEjGQ-N8udtSAbkXHmuJhwA4Pisjp0pCdOwywXnO1YuKtUpoC4xgJt452Uj8O-1SG2wNKQ9NcUiP4CatFDIG2fMMBSlLh4W6omR56FWOAjtxNpMf-6UE8bgo9QuF5R3MGrsQxR0IYDylh6KYmkxtQjN6XGgBC4uYOEGusT0Lhq9fCw_mw_0sFg07jCUu33efBLwras2818T8_S-sRC5_ZtMYYy_5FspM-KLlimsQUGATT3qJ0hDW2GV-ZLtYO80OCSjPy-ywYcbhvkwtyRHQwgFnVAD4MZKyNbvY-Zivbkl2GtdclhnmBjoPXeZJwnE", "state"=>"701c61790a0ffd051b034adf18acd3385ffc396a39c20cf2"}
+Completed 500 Internal Server Error in 323385ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (164.2ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:36:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:36:32 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQDkTa9NhwIWQUUektTzKtmw0VOfDXMtn5yJCQ4VLMoZkD21TH-ETm3AMLzVvvM2ubMZP2LAVrbKizmGbUM7C6qXJyBd5HXLK0FS8FlvoCMWswOoq0mAhkOvU_AvwFN7wOeUSRoCYH8u01pJq-smg5m6ky7FhQmEkN-CxrGz1XSadpKlsxAERmZh_DUPbnikae4P9fCXH7r39DQrX26mHesZ1OZeBI-A9IVZhOnczCWn0b3a8hqvR9QNLznzKOhjzGPtIz-WIhYJXp5uGI8Ou_F-FUjckEsfSs63sLbswu3CFqb0Tqs73ARsLes0rMeP-HY&state=94f7b3217a176a3a6b71a4554065f949c6205e204e4a0add" for ::1 at 2017-03-01 12:36:32 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDkTa9NhwIWQUUektTzKtmw0VOfDXMtn5yJCQ4VLMoZkD21TH-ETm3AMLzVvvM2ubMZP2LAVrbKizmGbUM7C6qXJyBd5HXLK0FS8FlvoCMWswOoq0mAhkOvU_AvwFN7wOeUSRoCYH8u01pJq-smg5m6ky7FhQmEkN-CxrGz1XSadpKlsxAERmZh_DUPbnikae4P9fCXH7r39DQrX26mHesZ1OZeBI-A9IVZhOnczCWn0b3a8hqvR9QNLznzKOhjzGPtIz-WIhYJXp5uGI8Ou_F-FUjckEsfSs63sLbswu3CFqb0Tqs73ARsLes0rMeP-HY", "state"=>"94f7b3217a176a3a6b71a4554065f949c6205e204e4a0add"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.6ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/sessions_controller.rb:5:in `block in create'
+  app/controllers/sessions_controller.rb:4:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (68.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (156.7ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:36:57 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:36:58 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQAoSj6vAMe0GjQnNZqrvEQNxbdGsoIkDMxpqicrQwtKEuvdjR6ALvzadzhpZE5BXygdFLUNQ5yjMUcD6JtYaMMKKPhsjjYqZJ4DE1jNAEu21y_rrjhl1sBjBKJIeGcyX7ud0Afy0EgGv88Oc6I5s6yX0PvgLj32OQtzlM2m1yiF8nGQOgIje8LhPxCdnrDwMYrOnanoS8BCK0QVaQRfWjTQUrAyuaG8b48taJJ0BnPB5PGUC1RabQqjWnOROZ5kpwRxqsL8eePvVwFn-JJdeR1p4DkrcW0VISXPqGOpiAkUrcAY2-oZlqmkhnZiMw_wP-c&state=c1a2caa211a188741daae4948097eb5c9ce21cec2f2cd014" for ::1 at 2017-03-01 12:36:58 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAoSj6vAMe0GjQnNZqrvEQNxbdGsoIkDMxpqicrQwtKEuvdjR6ALvzadzhpZE5BXygdFLUNQ5yjMUcD6JtYaMMKKPhsjjYqZJ4DE1jNAEu21y_rrjhl1sBjBKJIeGcyX7ud0Afy0EgGv88Oc6I5s6yX0PvgLj32OQtzlM2m1yiF8nGQOgIje8LhPxCdnrDwMYrOnanoS8BCK0QVaQRfWjTQUrAyuaG8b48taJJ0BnPB5PGUC1RabQqjWnOROZ5kpwRxqsL8eePvVwFn-JJdeR1p4DkrcW0VISXPqGOpiAkUrcAY2-oZlqmkhnZiMw_wP-c", "state"=>"c1a2caa211a188741daae4948097eb5c9ce21cec2f2cd014"}
+Completed 500 Internal Server Error in 30170ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/sessions_controller.rb:6:in `block in create'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (139.3ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:37:29 -0500
+
+
+Started GET "/" for ::1 at 2017-03-01 12:37:29 -0500
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 232ms (Views: 231.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:37:29 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:37:29 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQCMJ_pWRu2SsqTqZogc8C8cHCveeg2FeznWxED7reIk06sGfv3dz-8o5mteSYP-TaERmHC4TnxyYLeLKxKL620llANfWI8lBWVR6jLUBRHy6oJrnWafz66tdy5JAy6u-t2hhT2KJmEMZ0FrQMYp7FiFwDCHVz5kYQVJMyXfrqLOVeLpUKwBPE9lqk6_RY34Hho43j_bAFjXh-A-JMIQfzPkQMH2DhYXrbh1fLqqpqKTrBC5cWVKPWr9VNY__tXIsgzX8tWyHDn_wc50wEf9JhOuctixM2-ZhPXLXb8zSOnbZJuKWxDE3JWRGrfoyIfmDLI&state=5391309e9e4233fbeff355c7e59af517fb0694fc4fe9d4e1" for ::1 at 2017-03-01 12:37:29 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCMJ_pWRu2SsqTqZogc8C8cHCveeg2FeznWxED7reIk06sGfv3dz-8o5mteSYP-TaERmHC4TnxyYLeLKxKL620llANfWI8lBWVR6jLUBRHy6oJrnWafz66tdy5JAy6u-t2hhT2KJmEMZ0FrQMYp7FiFwDCHVz5kYQVJMyXfrqLOVeLpUKwBPE9lqk6_RY34Hho43j_bAFjXh-A-JMIQfzPkQMH2DhYXrbh1fLqqpqKTrBC5cWVKPWr9VNY__tXIsgzX8tWyHDn_wc50wEf9JhOuctixM2-ZhPXLXb8zSOnbZJuKWxDE3JWRGrfoyIfmDLI", "state"=>"5391309e9e4233fbeff355c7e59af517fb0694fc4fe9d4e1"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.9ms)
+
+RangeError (10154316774896935 is out of range for ActiveRecord::Type::Integer with limit 4):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.1ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170301172620)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.6ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20170301172620"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170301172620)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "uid" integer(8), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170301172620"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2017-03-01 12:39:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#home as HTML
+  Rendered welcome/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 234ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:39:06 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:39:06 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQCMuBb_gs7URXuKTBdseM0eEsMqoUeAqtW2NwKaeuXxVEgQ23HxSfdC1c20RLYKF1oYRZ_mxdVGLYr3duZhHLYef1o3BCOnnh3Grc0EYxsapjKc5QxaXivsuVr8cowx0EFFtxoZLfLu6gscYL709yw3-UVkqxI0uVsuMo6i8WS5R4Cs2Cfd03ZgccNZFjipM0y5EJYdZyAOqObBtaxu8BMEw7lsfcjvMoVj7S9_xMdF8YaAZhLovqDzkFINmBWxKDbzqDEdUXFe1Mhg8eVq-1Angc1EKPtTsfPR6O0yw8TJUdeSjL9T1o8aXy8hY1ES5Aw&state=ee20d722dfc79ea30f9cbfc0f058bfdf8786651ab5d2a6f9" for ::1 at 2017-03-01 12:39:07 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCMuBb_gs7URXuKTBdseM0eEsMqoUeAqtW2NwKaeuXxVEgQ23HxSfdC1c20RLYKF1oYRZ_mxdVGLYr3duZhHLYef1o3BCOnnh3Grc0EYxsapjKc5QxaXivsuVr8cowx0EFFtxoZLfLu6gscYL709yw3-UVkqxI0uVsuMo6i8WS5R4Cs2Cfd03ZgccNZFjipM0y5EJYdZyAOqObBtaxu8BMEw7lsfcjvMoVj7S9_xMdF8YaAZhLovqDzkFINmBWxKDbzqDEdUXFe1Mhg8eVq-1Angc1EKPtTsfPR6O0yw8TJUdeSjL9T1o8aXy8hY1ES5Aw", "state"=>"ee20d722dfc79ea30f9cbfc0f058bfdf8786651ab5d2a6f9"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10154316774896935]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("uid", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["uid", 10154316774896935], ["name", "Keegan Leitz"], ["created_at", "2017-03-01 17:39:07.319311"], ["updated_at", "2017-03-01 17:39:07.319311"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  Rendered sessions/create.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 1.9ms)
+
+ActionView::Template::Error (only generation of JSON objects or arrays allowed):
+    1: <pre><%= JSON.pretty_generate(@auth) %></pre>
+    2: <img src="<%= @auth[:info] && @auth[:info][:image] %>">
+  app/views/sessions/create.html.erb:1:in `_app_views_sessions_create_html_erb__4172768108620957599_70355890524000'
+
+
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.6ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (76.2ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (3.9ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kjleitz/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (162.8ms)
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:40:06 -0500
+
+
+Started GET "/auth/facebook" for ::1 at 2017-03-01 12:40:06 -0500
+
+
+Started GET "/auth/facebook/callback?code=AQCyfxYvQs7s8saiOZdiqLha6C0G9Fl08LP-4VZGkyGuNAKqOml6LUBHAeWvzoUjMKXsatlXi5oyResQpE-RQ5sU0WL88Kcr9s_jkqu96R_uCk9si7u-Uw7LWYjd6y3PtmZOxsQdWvZPmUwp8J_0VuhkgiX8J2kCELaP0eTIyrFi13Ea4vL1s3sz2XjvOuFPg04Ein57xAoBnzo47R_BpP2WsttmZB8Uvt9R1T8Mgry1QL8VGOFsdlomkoOzHeHsGkxoZBJJWmDD-AVz-FRqNnb5wxTQDo4l7ys-PgWadDmH2jStxPij0yy0xjWCumareJ8&state=f14e1c01a1972291d33222b1136a3727b201c6bb8d509e55" for ::1 at 2017-03-01 12:40:06 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCyfxYvQs7s8saiOZdiqLha6C0G9Fl08LP-4VZGkyGuNAKqOml6LUBHAeWvzoUjMKXsatlXi5oyResQpE-RQ5sU0WL88Kcr9s_jkqu96R_uCk9si7u-Uw7LWYjd6y3PtmZOxsQdWvZPmUwp8J_0VuhkgiX8J2kCELaP0eTIyrFi13Ea4vL1s3sz2XjvOuFPg04Ein57xAoBnzo47R_BpP2WsttmZB8Uvt9R1T8Mgry1QL8VGOFsdlomkoOzHeHsGkxoZBJJWmDD-AVz-FRqNnb5wxTQDo4l7ys-PgWadDmH2jStxPij0yy0xjWCumareJ8", "state"=>"f14e1c01a1972291d33222b1136a3727b201c6bb8d509e55"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = ? LIMIT 1  [["uid", 10154316774896935]]
+  Rendered sessions/create.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 14.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-01 12:40:07 -0500
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-01 12:40:07 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-03-01 12:40:07 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-01 12:40:07 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-03-01 12:40:07 -0500
