@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get 'auth/facebook' => 'welcome#home'
+  get '/' => 'welcome#home'
+  get '/auth/facebook/callback' => 'sessions#create'
 
-  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
