@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
-
+# gem 'pry', '~> 0.10.4'
+# gem 'pry-nav'
+gem 'dotenv-rails'
+gem 'pry-rails'
+gem 'omniauth'
+gem 'omniauth-facebook'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 # Use sqlite3 as the database for Active Record
