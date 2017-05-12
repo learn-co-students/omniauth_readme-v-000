@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   #   resources :products
   resources :sessions
   root to: 'welcome#home'
+  get '/auth/facebook/callback' => 'sessions#create'
 
   # Example resource route with options:
   #   resources :products do
