@@ -7,7 +7,6 @@ class SessionsController < ApplicationController
        u.email = auth['info']['email']
      end
      @auth = request.env['omniauth.auth']
-     binding.pry
      session[:user_id] = user.id
    end
 #request.env['omniauth.auth']
