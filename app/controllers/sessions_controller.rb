@@ -1,5 +1,7 @@
 class SessionsController < ApplicationController
 	def create
+		@auth = auth
+		#raise auth.inspect
     	user = User.find_or_create_by(:uid => auth['uid']) do |u|
       		u.name = auth['info']['name']
       		u.email = auth['info']['email']
