@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -55,4 +55,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root 'welcome#home'
+  get '/welcome/home', to: 'welcome#home'
+  get '/auth/facebook/callback' => 'sessions#create'
+
+  resources :welcome
 end
