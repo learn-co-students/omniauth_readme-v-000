@@ -31,6 +31,13 @@ gem 'turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Authentication gems
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+# Set environment variables directly in a local ENV hash
+gem 'dotenv-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

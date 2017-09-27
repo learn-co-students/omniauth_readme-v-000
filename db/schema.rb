@@ -14,3 +14,4 @@
 ActiveRecord::Schema.define(version: 0) do
 
 end
+rails g model user name:string email:string image:string uid:string --no-test-framework
