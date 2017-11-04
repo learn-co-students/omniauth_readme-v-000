@@ -23,8 +23,9 @@ gem 'turbolinks'
 # gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
 
+ gem 'dotenv-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -39,6 +40,10 @@ group :development, :test do
   gem 'spring'
 
   gem 'pry'
+
+  gem 'omniauth'
+
+  gem 'omniauth-facebook'
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
