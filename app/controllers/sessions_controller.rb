@@ -6,8 +6,8 @@ class SessionsController < ApplicationController
       u.image = auth['info']['image']
     end
 
-    binding.pry
-    
+    # binding.pry
+
     session[:user_id] = @user.id
 
     render 'welcome/home'
