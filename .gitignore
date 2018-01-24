@@ -2,3 +2,4 @@
 *.log
 *.env
 tmp/Gemfile.lock
+tmp/cache
