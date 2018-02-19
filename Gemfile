@@ -22,6 +22,13 @@ gem 'turbolinks'
 # bundle exec rake doc:rails generates the API under doc/api.
 # gem 'sdoc', '~> 0.4.0', group: :doc
 
+#Allows you to login with third party providers (Facebook)
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+#Ensures that environment variables are correctly loaded into the ENV hash in a secure manner
+gem 'dotenv-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
