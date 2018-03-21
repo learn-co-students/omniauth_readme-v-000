@@ -28,6 +28,10 @@ gem 'turbolinks'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem 'omniauth', '~> 1.8', '>= 1.8.1'
+gem 'omniauth-facebook', '~> 4.0'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
