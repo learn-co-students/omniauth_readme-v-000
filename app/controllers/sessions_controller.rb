@@ -4,7 +4,6 @@ class SessionsController < ApplicationController
   end
 
   def create
-
     if request.env["omniauth.auth"]
       @auth = request.env["omniauth.auth"]["info"]
       @user = User.find_or_create_by(email: @auth["email"])

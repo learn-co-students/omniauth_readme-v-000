@@ -3,7 +3,7 @@ get '/login' => "sessions#home"
 post '/sessions' => "sessions#create"
 get '/logout' => "sessions#destroy"
 get '/auth/:provider/callback' => 'sessions#create'
-
+get '/oauth2callback' => 'sessions#create'
 
   resources :users
 
