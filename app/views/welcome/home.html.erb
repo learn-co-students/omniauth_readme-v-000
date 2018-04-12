@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- facebook set-up code for facebook SDK for JS -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '130340151150065',
+          cookie     : true,
+          xfbml      : true,
+          version    : '4.32.0'
+        });
+
+        FB.AppEvents.logPageView();
+
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- end facebook SDK script -->
+
+    <%= link_to('Log in with Facebook!', '/auth/facebook') %>
+
+    <% if session[:user_id] %>
+      <h1><%= @user.name %></h1>
+      <h2>Email: <%= @user.email %></h2>
+      <h2>Facebook UID: <%= @user.uid %></h2>
+      <img src="<%= @user.image %>">
+    <% else %>
+      <%= link_to('Log in with Facebook!', '/auth/facebook') %>
+    <% end %>
+
+  </body>
+</html>
+
 <%# Add the Facebook login link here %>
