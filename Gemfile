@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'omniauth'
-gem 'omniauth-facebook'
+gem 'omniauth-google'
 
 gem 'dotenv-rails'
 
