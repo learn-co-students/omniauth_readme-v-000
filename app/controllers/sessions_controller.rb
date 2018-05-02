@@ -8,7 +8,6 @@ class SessionsController < ApplicationController
 
     binding.pry
 
-
     session[:user_id] = @user.id
 
     render 'welcome/home'
