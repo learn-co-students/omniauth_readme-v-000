@@ -1,1 +1,10 @@
-<%# Add the Facebook login link here %>
+<h1>Home</h1>
+
+<% if session[:user_id] %>
+  <h2><%= @user.name %></h2>
+  <h2><%= @user.email %></h2>
+  <h4>Logged in with GitHub</h4>
+  <h4><%= link_to 'Log Out', logout_path %></h4>
+<% else %>
+  <%= link_to 'Login with GitHub', '/auth/github' %>
+<% end %>
