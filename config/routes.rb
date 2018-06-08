@@ -1,5 +1,20 @@
 Rails.application.routes.draw do
-  root 'welcome#home'
+
+  # get 'auth/google_oauth2', to: 'sessions#create'
+  get 'auth/:provider/callback', to: 'sessions#create'
+  get 'auth/failure', to: redirect('/')
+  # get "/auth/google_oauth2", to: 'sessions#create'
+  get 'signout', to: 'sessions#destroy', as: 'signout'
+
+  resources :sessions, only: [:create, :destroy]
+  resource :welcome, only: [:home]
+
+  root to: "welcome#home"
+  # get 'sessions/create'
+
+  # get 'sessions/destroy'
+
+  # root 'welcome#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
