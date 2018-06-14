@@ -1,0 +1,1 @@
+/Users/aronroitblat/Development/code/omniauth_readme-v-000/config/initializers/omniauth.rb
