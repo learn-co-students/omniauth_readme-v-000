@@ -1,5 +1,14 @@
 source 'https://rubygems.org'
 
+# lets you use multiple authentication providers alongside the more traditional username/password setup.
+gem 'omniauth'
+# provider specific omniauth gem
+gem 'omniauth-facebook'
+# ensures that environment variables are correctly loaded into the ENV hash in a secure manner.
+gem 'dotenv-rails'
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
 # Use sqlite3 as the database for Active Record
