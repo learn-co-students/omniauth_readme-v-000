@@ -8,10 +8,12 @@ class SessionsController < ApplicationController
 
         session[:user_id] = @user.id
 
-        render 'welcome/home'
+        #render 'welcome/home_logged_in'
+        render 'welcome'
     end
 
     def auth
-        @auth ||= request.env['omniauth.auth']
+        #@auth ||= request.env['omniauth.auth']
+        request.env['omniauth.auth']
     end
 end
