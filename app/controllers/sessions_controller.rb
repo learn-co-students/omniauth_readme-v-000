@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
         session[:user_id] = @user.id
 
         #render 'welcome/home_logged_in'
-        render 'welcome'
+        render 'welcome/home'
     end
 
     def auth
