@@ -1,1 +1,6 @@
 <%# Add the Facebook login link here %>
+<% if session[:user_id] %>
+  <h1>Username: <%= @user.name %></h1>
+<% else %>
+  <%= link_to "Log in with Facebook", '/auth/facebook' %>
+<% end %>
