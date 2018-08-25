@@ -33,6 +33,10 @@ gem 'turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# `omniauth` and `omniauth-facebook` for using fb to login to site, per this lession follow along
+gem 'omniauth'
+gem 'omniauth-facebook'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
