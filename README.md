@@ -12,7 +12,7 @@ There are no tests for this lesson, but code along as we learn about OmniAuth an
 ## Overview
 Passwords are terrible.
 
-For one thing, you have to remember them. Or you have to use a password manager, which comes with its own problems. Unsurprisingly, some percentage of users will just leave and never come back the moment you ask them to create an account.
+For one thing, you have to remember them. Or you have to use a password manager. Unsurprisingly, some percentage of users will just leave and never come back the moment you ask them to create an account.
 
 And then on the server, you have to manage all these passwords. You have to store them securely. Rails secures your passwords when they are stored in your database, but it does not secure your servers, which see the password in plain text. If I can get into your servers, I can edit your Rails code and have it send all your users' passwords to me as they submit them. You'll also have to handle password changes, email verification, and password recovery. Inevitably, your users accounts will get broken into. This may or may not be your fault, but, when they write to you, it will be your problem.
 
