@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'welcome#home'
+  get '/auth/google_oauth2/callback' => 'sessions#create'
+  get '/auth/failure', to: redirect('/')
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
