@@ -1,5 +1,6 @@
 # OmniAuth
 
+
 ## Objectives
 1. Describe the problem of authentication and how OmniAuth solves it.
 2. Explain an OmniAuth strategy.
