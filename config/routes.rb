@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'welcome#home'
 
+
+  get '/auth/facebook/callback' => 'sessions#create'
+# which is where Facebook will redirect users in the callback phase of the login process. 
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
