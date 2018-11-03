@@ -11,6 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20181102164635) do
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "image"
+    t.string   "uid"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "provider"
+    t.string   "token"
+    t.integer  "expires_at"
+    t.boolean  "expires"
+    t.string   "refresh_token"
+  end
 
 end
