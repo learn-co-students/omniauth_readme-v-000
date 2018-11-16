@@ -1,1 +1,16 @@
-<%# Add the Facebook login link here %>
+<% if session[:user_id] %>
+  <h1><%= @user.name %></h1>
+  <h2>Email: <%= @user.email %></h2>
+  <h2>UID: <%= @user.uid %></h2>
+  <img src="<%= @user.image %>">
+
+  <%= link_to "logout", {:controller=> "sessions", :action=> "destroy"}, :method => :delete%>
+
+    
+<% else %>
+  <%= link_to('Log in with Facebook!', '/auth/facebook') %> <br>
+  <%= link_to('Log in with Google!', '/auth/google_oauth2') %>
+<% end %>
+
+
+
