@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'welcome#home'
 
+  #redirects facebook OAuth callback to create action
+  get '/auth/facebook/callback' => 'sessions#create'
+  get '/logout' => 'sessions#clear'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
