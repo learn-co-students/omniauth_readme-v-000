@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem omniauth
-gem omniauth-facebook
-gem dotenv-rails
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
