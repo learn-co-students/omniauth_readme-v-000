@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'omniauth'
+gem 'omniauth-facebook'
+# ensure that environment variables are correctly loaded into the ENV hash in a secure manner
+gem 'dotenv-rails'
+
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
 # Use sqlite3 as the database for Active Record
