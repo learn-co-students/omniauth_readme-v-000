@@ -16,6 +16,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'thin'
+gem 'dotenv-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
