@@ -1,3 +1,5 @@
+require 'pry'
+
 class SessionsController < ApplicationController
   def create
     @user = User.find_or_create_by(uid: auth['uid']) do |u|
@@ -5,6 +7,8 @@ class SessionsController < ApplicationController
       u.email = auth['info']['email']
       u.image = auth['info']['image']
     end
+
+  binding.pry
  
     session[:user_id] = @user.id
  
