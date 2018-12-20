@@ -1,9 +1,8 @@
-<%# Add the Facebook login link here %>
 <%if session[:user_id]%>
-<h4><%= @user.name%></h4>
-<p>Email: <%=@user.email%></p><br>
-<p>GitHub UID: <%= @user.uid %></p><br>
-<img src='<%=@user.image%>'>
+  <h4><%= @user.name%></h4>
+  <p>Email: <%=@user.email%></p><br>
+  <p>GitHub UID: <%= @user.uid %></p><br>
+  <img src='<%=@user.image%>'>
 <% else %>
-<%= link_to('Log in with GitHub', '/auth/github')%>
+  <%= link_to('Log in with GitHub', '/auth/github')%>
 <% end %>
