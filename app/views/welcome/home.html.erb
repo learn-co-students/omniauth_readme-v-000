@@ -1,8 +1,6 @@
-<%if session[:user_id]%>
-  <h4><%= @user.name%></h4>
-  <p>Email: <%=@user.email%></p><br>
-  <p>GitHub UID: <%= @user.uid %></p><br>
-  <img src='<%=@user.image%>'>
+<% if session[:user_id] %>
+  <h1><%= @user.name %></h1>
+  <h2>GitHub UID: <%= @user.uid %></h2>
 <% else %>
-  <%= link_to('Log in with GitHub', '/auth/github')%>
+  <%= link_to('Login with Github', '/auth/github') %>
 <% end %>
