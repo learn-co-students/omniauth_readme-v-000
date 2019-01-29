@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'eventmachine', github: 'sodabrew/eventmachine', ref: '5adf325ef197177547fed2a440ff6ce9c3dc53e1'
 gem 'thin'
 
 # Use jquery as the JavaScript library
@@ -23,10 +23,11 @@ gem 'turbolinks'
 # gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 # gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'omniauth'
+gem 'omniauth-facebook'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'dotenv-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
