@@ -19,12 +19,23 @@ module OmniauthLab
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-
+    
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     
     # for Facebook required https
-    config.force_ssl = true
+    # config.force_ssl = true
+
+    #Site URL
+    #https://localhost:3000/
+
+    #Valid OAuth Redirect URIs
+    # https://0.0.0.0:3000/auth/facebook/callback
+
+    # bundle exec thin start --ssl
+
+    
+   
     
     
   end
