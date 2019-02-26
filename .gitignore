@@ -2,3 +2,6 @@
 *.log
 tmp/Gemfile.lock
 Gemfile.lock
+
+#Ignore .env file
+/.env
