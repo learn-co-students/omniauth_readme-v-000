@@ -3,7 +3,7 @@
   <h2>Email: <%= @user.email %></h2>
   <h2>Facebook UID: <%= @user.uid %></h2>
   <%= link_to '/auth/facebook' do %>
-    Log In Again! <%= image_tag("#{@user.image}") %>
+    Log In Again! <%= image_tag("#{@user.image}", :style => "display: block;") %>
   <% end %>
 
 <% else %>
