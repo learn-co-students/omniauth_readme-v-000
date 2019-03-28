@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'bundler', '~> 1.3.0'
 
 gem 'thin'
 
