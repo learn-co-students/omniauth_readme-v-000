@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sessions/create'
+  get '/auth/facebook/callback' => 'session#create'
   root 'welcome#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
