@@ -16,9 +16,9 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'dotenv-rails'
 gem 'thin'
-
 # if i you have a gemfile lock delete it, and just specify the sqlite3 version.
-# in this case it was gem 'sqlite3', '~> 1.3.6' and do bundle install. 
+# in this case it was gem 'sqlite3', '~> 1.3.6' and do bundle install.
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
