@@ -2,3 +2,5 @@
 *.log
 tmp/Gemfile.lock
 Gemfile.lock
+# Ignore files related to API keys
+.env
