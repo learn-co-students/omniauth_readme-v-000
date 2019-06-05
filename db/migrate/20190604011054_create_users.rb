@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.string :image
       t.string :uid
+      t.string :provider
 
       t.timestamps null: false
     end
