@@ -22,7 +22,7 @@ module OmniauthLab
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    
+
     # Commenting out this next line because it causes Chrome to cache the HTTPS protocol for the localhost
     # domain, forcing students to have to clear the cache to work
 
