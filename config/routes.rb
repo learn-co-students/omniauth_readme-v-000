@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  get 'sessions/create'
+
   root 'welcome#home'
+
+  # https://learn.co/tracks/full-stack-web-development-v8/module-13-rails/section-12-authentication/omniauth
+  # Add the following to config/routes.rb:
+  # new code begin
+  get '/auth/facebook/callback' => 'sessions#create'
+  # new code end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

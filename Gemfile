@@ -1,5 +1,16 @@
 source 'https://rubygems.org'
 
+# https://learn.co/tracks/full-stack-web-development-v8/module-13-rails/section-12-authentication/omniauth
+# In this case, let's add omniauth and omniauth-facebook to the Gemfile and then
+# run a bundle install command.
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+# Add dotenv-rails to your Gemfile and bundle install
+# new code start
+gem 'dotenv-rails'
+# new code end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0'
 # Use sqlite3 as the database for Active Record
