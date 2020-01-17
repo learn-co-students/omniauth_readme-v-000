@@ -37,6 +37,9 @@ gem 'turbolinks'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+# Use the dotenv-rails gem to correctly and securely load environment variables into the ENV hash.
+gem 'dotenv-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
