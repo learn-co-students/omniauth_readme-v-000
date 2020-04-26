@@ -1,3 +1,4 @@
 *.sqlite3
 *.log
 tmp/Gemfile.lock
+omniauth_readme-v-000/.env
