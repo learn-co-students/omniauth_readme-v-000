@@ -1,4 +1,4 @@
-# OmniAuth
+# OmniAuth.
 
 ## Objectives
 1. Describe the problem of authentication and how OmniAuth solves it.
