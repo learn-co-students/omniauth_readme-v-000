@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'welcome#home'
+  root to: "users#new"
+  get "/auth/:provider/callback" => "sessions#create"
+  get "/signout" => "sessions#destroy", :as => :signout
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
