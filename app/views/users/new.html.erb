@@ -1,0 +1,17 @@
+<h1>Sign Up </h1>
+<br>
+<%= form_for @user do |u|%>
+    <%=u.label :email%>
+    <%=u.text_field :email%>
+    <br>
+    <%=u.label :name%>
+    <%=u.text_field :name%>
+    <br>
+    <%=u.label :password%>
+    <%=u.password_field :password%>
+    <%=u.submit 'Sign up!'%>
+<%end%>
+
+
+<h2>Google Sign in </h2>
+<%= button_to 'Google', '/auth/google/oauth2'%>
